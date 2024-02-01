@@ -30,7 +30,9 @@ El algoritmo de la construcción de un árbol es el siguiente:
 4. Operando
 - Si el árbol está vacío hacer raíz a nuevo, sino recorrer el árbol por la derecha hasta llegar a un nodo con hojas, si la hoja izquierda no está etiquetada, entonces colocar operando, sino colocarlo a la derecha.
 5. Operador
-- Si la raíz es un operando, insertar nuevo en ese nodo, y convertir el operando en el hijo izquierdo, si no si hay un paréntesis abierto insertar nuevo en la última hoja derecha y colocar operando como hijo izquierdo.Si el carácter anterior es paréntesis izquierdo si el siguiente carácter es paréntesis derecho si solo hay un operador en el árbol nuevo se convierte en raíz, si no se inserta en el último nodo derecho, y el nodo seconvierte en hijo izquierdo.Si no se cumple ninguna de las condiciones anteriores si la raíz es de igual prioridad o menor prioridad convertir la raíz en el hijo izq. de nuevosi no la prioridad del nodo raíz es mayor al de nuevo insertar nuevo como hijo derecho y colocar el nodo reemplazado como hijo izquierdo.
+- Si la raíz es un operando, insertar nuevo en ese nodo, y convertir el operando en el hijo izquierdo, si no si hay un paréntesis abierto insertar nuevo en la última hoja derecha y colocar operando como hijo izquierdo.
+- Si el carácter anterior es paréntesis izquierdo si el siguiente carácter es paréntesis derecho si solo hay un operador en el árbol nuevo se convierte en raíz, si no se inserta en el último nodo derecho, y el nodo seconvierte en hijo izquierdo.
+- Si no se cumple ninguna de las condiciones anteriores si la raíz es de igual prioridad o menor prioridad convertir la raíz en el hijo izq. de nuevosi no la prioridad del nodo raíz es mayor al de nuevo insertar nuevo como hijo derecho y colocar el nodo reemplazado como hijo izquierdo.
 
 
 
