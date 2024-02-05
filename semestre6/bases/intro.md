@@ -50,7 +50,7 @@ Si quisieras acceder a la información de la base de datos "clientes", te conect
 >- Gestionar la migración de datos entre versiones del DBMS.
 >- Ejecutar actualizaciones de software de base de datos.
 
-Documentación:
+8. Documentación
 
 >- Mantener documentación detallada sobre la estructura de la base de datos, procedimientos almacenados y otros elementos clave.
 
