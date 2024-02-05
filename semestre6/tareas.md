@@ -2,7 +2,7 @@
 # TAREAS
 
 ## REDES
-- Hacer 1.4
+
 
 ## LENGUAJES
 - Terminar de copiar
