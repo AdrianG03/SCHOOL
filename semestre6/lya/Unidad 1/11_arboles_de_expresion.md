@@ -33,7 +33,7 @@ Los árboles de expresiones se aplican en diversas áreas, aprovechando su estru
 - **Sistemas de Álgebra Computacional:** En sistemas de álgebra computacional, que se utilizan para manipular expresiones algebraicas simbólicas, los árboles de expresiones son fundamentales para representar y operar con polinomios, ecuaciones y otras estructuras algebraicas.
 
 Los paréntesis no se almacenan en el árbol pero están implicados en la forma del árbol, como puede apreciarse en la figura.
-![alt text](image.png)
+![alt text](/semestre6/src/image.png)
 
 Un árbol de expresión es un árbol binario con las siguientes propiedades:
 1. Cada hoja es un operando.
@@ -43,7 +43,7 @@ Un árbol de expresión es un árbol binario con las siguientes propiedades:
 Los árboles binarios se utilizan para representar expresiones en memoria, esencialmente en compiladores de lenguajes de programación. Se observa que los paréntesis de la expresión no aparecen en el árbol, pero están implicados en su forma, y esto resulta muy interesante para la evaluación de la expresión. Si se supone que todos los operadores tienen dos operandos, se puede representar una expresión mediante un árbol binario cuya raíz contiene un operador y cuyos subárboles izquierdo y derecho son los operando izquierdo y derecho, respectivamente. Cada operando puede ser una letra (x, y, a, b, etc.) o una subexpresión representada como un subárbol.
 
 El nodo raíz del subárbol izquierdo contiene el operador (+) de la subexpresión izquierda y el nodo raíz del subárbol derecho contiene el operador (-) de la subexpresión derecha. Todos los operandos letras se almacenan en nodos hojas.
-![alt text](image-1.png)
+![alt text](/semestre6/src/image-1.png)
 
 Los árboles de expresiones representan el código de nivel del lenguaje en forma de datos. Los datos se almacenan en una estructura con forma de árbol. Cada nodo del árbol de expresión representa una expresión, por ejemplo, una llamada al método o una operación binaria, como x < y.
 Los árboles binarios se utilizan para representar expresiones en memoria, esencialmente en compiladores de lenguajes de programación. Se observa que los paréntesis de la expresión no aparecen en el árbol, pero están implicados en su forma, y esto resulta muy interesante para la evaluación de la expresión.
@@ -58,15 +58,15 @@ Vamos a crear un ejemplo detallado de un árbol de expresión para la expresión
 **Paso 2: Construcción del Árbol**
 - Comencemos con el operador de multiplicación (×) y creemos dos subárboles para sus operandos.
 
-![alt text](image-2.png)
+![alt text](/semestre6/src/image-2.png)
 
 - Ahora, añadimos el operador de suma (+) como otro subárbol con operandos 3 y 4.
 
-![alt text](image-3.png)
+![alt text](/semestre6/src/image-3.png)
 
 - Finalmente, conectamos el resultado de la multiplicación al operador de resta (−−), con 2 como el otro operando.
 
-![alt text](image-4.png)
+![alt text](/semestre6/src/image-4.png)
 
 **Paso 3: Evaluación del Árbol**
 
