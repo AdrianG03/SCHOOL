@@ -1,3 +1,5 @@
+**Guevara Rendón Adrián-----06/feb/2024**
+
 # TENDENCIAS DE SGBD Y DBA
 
 ## ¿Cuales son las tendencias futuras de las SGBD y del DBA?
