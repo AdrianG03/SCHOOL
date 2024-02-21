@@ -5,16 +5,20 @@
 - 
 
 ## LENGUAJES
-- Hacer el reporte
+- Hacer el reporte xd
 
 ## BASES R
 - 
 
 ## ISW PRO
-- checar lo de la unidad 2
+- Checar lo de la unidad 2
 
 ## TALLER SO
 - 
 
 ## ASM
 - 
+
+## Mondongo
+- La muerte misma
+
