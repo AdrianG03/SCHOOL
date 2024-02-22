@@ -11,14 +11,14 @@
 - 
 
 ## ISW PRO
-- Checar lo de la unidad 2
+- Examen
 
 ## TALLER SO
 - 
 
 ## ASM
-- 
+- Comandos viernes
 
 ## Mondongo
-- La muerte misma
+- 
 
