@@ -8,7 +8,7 @@
 - Hacer el reporte xd
 
 ## BASES R
-- 
+- Glosario
 
 ## ISW PRO
 - Examen

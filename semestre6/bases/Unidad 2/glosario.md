@@ -11,3 +11,7 @@
 - __Servidor:__ Es una computadora o sistema informático que proporciona recursos, datos, servicios o funcionalidades a otros dispositivos o programas, conocidos como clientes, a través de una red. Los servidores pueden realizar una amplia variedad de tareas, como almacenar y compartir archivos, alojar sitios web, administrar bases de datos, ejecutar aplicaciones, gestionar el correo electrónico, entre otras funciones.
 
 - __Plugin:__ Son pequeños programas complementarios que amplían las funciones de aplicaciones web y programas de escritorio. Por norma general, cuando instalamos un plugin, el software en cuestión adquiere una nueva función. 
+
+- __Backup:__
+
+- __Servidor externo:__
