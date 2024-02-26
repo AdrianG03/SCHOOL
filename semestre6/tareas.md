@@ -5,19 +5,20 @@
 - 
 
 ## LENGUAJES
-- Hacer el reporte xd
+- Hacer el reporte (Ahora si)
 
 ## BASES R
-- Glosario
+- Terminar de hacer backup de la base de datos
 
 ## ISW PRO
-- Examen
+- Investigar lo de los protocolos para unidad 2
 
 ## TALLER SO
 - 
 
 ## ASM
-- Comandos viernes
+- que instrucciones leen puertos, cuales escriben
+- como hacer un semáforo con el PIC
 
 ## Mondongo
 - 

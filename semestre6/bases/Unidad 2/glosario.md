@@ -12,6 +12,6 @@
 
 - __Plugin:__ Son pequeños programas complementarios que amplían las funciones de aplicaciones web y programas de escritorio. Por norma general, cuando instalamos un plugin, el software en cuestión adquiere una nueva función. 
 
-- __Backup:__
+- __Backup:__ Es una copia de los datos almacenados en una base de datos en un momento específico en el tiempo. Este respaldo se crea con el propósito de poder recuperar los datos en caso de pérdida, daño o corrupción de la base de datos original debido a errores humanos, fallas de hardware, ataques cibernéticos, desastres naturales u otros eventos imprevistos.
 
-- __Servidor externo:__
+- __Backup remoto:__ Es un servicio que permite realizar copias de seguridad de los datos de una empresa en un servidor ubicado en una localización distinta.
