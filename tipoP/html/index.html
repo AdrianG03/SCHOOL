@@ -15,49 +15,118 @@
 </head>
 
 <body>
-    <h1>Portfolio de guevadev</h1>
+    <header>
+        <h1>Portfolio de guevadev</h1>
+
+        <nav>
+            <a href="#Experiencia">Experiencia</a>
+            <a href="#Proyectos">Proyectos</a>
+            <a href="https://www.google.com.mx/" target="_blank" rel="noreferrer">Google</a>
+        </nav>
+    </header>
     <!--Yo-->
-    <p>Estudiando Ingenieria en <strong>sistemas</strong> computacionales</p>
+    <main>
+        <p>Estudiando Ingenieria en <strong>sistemas</strong> computacionales</p>
 
-    <h2>Experiencia</h2>
-    <!--Comentario-->
-    <ul>
-        <li class="list-item">Hackathon Morelos</li>
-        <li class="list-item">Hackathon Cuautla</li>
-        <li class="list-item">Conferencias</li>
-    </ul>
+        <h2 id="Experiencia">Experiencia</h2>
+        <!--Comentario-->
+        <ul>
+            <li class="list-item">Hackathon Morelos</li>
+            <li class="list-item">Hackathon Cuautla</li>
+            <li class="list-item">Conferencias</li>
+        </ul>
 
-    <img id="photo-image" title="Foto de guevadev"
-        alt="Foto de guevadev frente a un espejo con un celular cubriendo su rostro" src="/tipoP/src/yo.jpg" width=200
-        height=200>
+        <a download href="/tipoP/src/yo.jpg">
+            <img id="photo-image" title="Foto de guevadev"
+                alt="Foto de guevadev frente a un espejo con un celular cubriendo su rostro" src="/tipoP/src/yo.jpg"
+                width=200 height=200>
+        </a>
 
-    <h2>Proyectos Realizados</h2> <!--Comienzo de HTML SEMÁNTICO-->
-    <aside> <!--Es contenido que tiene que ver pero que sigue otro flujo-->
-        <header> <!--Se puede colocar otro header, como siguiendo un poco la estructura general-->
-            <h3>Mis tecnologías favoritas</h3>
-            <ol> <!--Las listas ordenadas-->
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-            </ol>
-        </header>
-    </aside>
-
-    <section> <!--Es como un bloque que contiene algo-->
-        <article>
-            <!--un article es un elemento con información propia contenida que sigue teniendo sentido aún cuando lo sacas-->
-            <header>
-                <h4>SISTEMA INTEGRAL DE LA SOCIEDAD DE ALUMNOS</h4>
+        <h2 id="Proyectos">Proyectos</h2> <!--Comienzo de HTML SEMÁNTICO-->
+        <aside> <!--Es contenido que tiene que ver pero que sigue otro flujo-->
+            <header> <!--Se puede colocar otro header, como siguiendo un poco la estructura general-->
+                <h3>Mis tecnologías favoritas</h3>
+                <ol type="I" reversed start="III">
+                    <!--Las listas ordenadas, type para cambiar el tipo de puntos y start para decirle donde empezar-->
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ol>
             </header>
-            <p>
-                Sistema que permite a los alumnos de la facultad de ingeniería de la UAEM, realizar trámites
-                escolares, consultar calificaciones, consultar horarios, consultar profesores, consultar
-                compañeros, consultar eventos, consultar noticias, consultar avisos, consultar convocatorias,
-                consultar becas, consultar bolsa de trabajo, consultar estadísticas, consultar encuestas, consultar.
-            </p>
-            <footer>Se usaron tecnologías web y demás</footer>
-        </article>
-    </section>
+        </aside>
+
+        <button>Haz click aquí</button>
+
+        <section> <!--Es como un bloque que contiene algo-->
+            <article>
+                <!--un article es un elemento con información propia contenida que sigue teniendo sentido aún cuando lo sacas-->
+                <header>
+                    <h4>SISTEMA INTEGRAL DE LA SOCIEDAD DE ALUMNOS</h4>
+                </header>
+                <p>
+                    Sistema que permite a los alumnos de la facultad de ingeniería de la UAEM, realizar trámites
+                    escolares, consultar calificaciones, consultar horarios, consultar profesores, consultar
+                    compañeros, consultar eventos, consultar noticias, consultar avisos, consultar convocatorias,
+                    consultar becas, consultar bolsa de trabajo, consultar estadísticas, consultar encuestas, consultar.
+                </p>
+                <footer>
+                    <small>Se usaron tecnologías como react, librerias, etc</small>
+                    <!--Algo para hacer incapié, no solo para hacer pequeña la imagen-->
+                </footer>
+            </article>
+        </section>
+
+        <section>
+            <h2>Preguntas Frecuentes</h2>
+
+            <details>
+                <summary>¿Qué estudios tienes?</summary>
+                <p>Estudié en el Tecnológico Nacional de México/Campus Cuautla</p>
+            </details>
+        </section>
+
+        <section>
+            <h2>Formulario de contacto</h2>
+
+            <form method="post" action="/">
+
+                <fieldset>
+                    <legend>Información Personal</legend>
+                    <div>
+                        <label>Nombre:
+                            <input type="text" name="name" placeholder="Adrian Guevara" required>
+                        </label>
+                    </div>
+                    <div>
+                        <label>Email:
+                            <input type="email" name="email" placeholder="guevadev@gmail.com" required>
+                        </label>
+                    </div>
+                    <div>
+                        <datalist id="languages">
+                            <option value="Javascript"></option>
+                            <option value="Java"></option>
+                            <option value="Python"></option>
+                            <option value="C#"></option>
+                        </datalist>
+                        <label>
+                            ¿Qué lenguae necesitas?
+                            <input list="languages" name="languages">
+                        </label>
+                    </div>
+                </fieldset>
+
+                <button type="submit">Enviar contacto</button>
+
+            </form>
+        </section>
+    </main>
 </body>
+
+<footer>
+    Copyright yo xd
+    <a href="mailto: guevadev@gmail.com">Envía un correo</a>
+    <a href="tel: +527351890934">Llámame</a>
+</footer>
 
 </html>
