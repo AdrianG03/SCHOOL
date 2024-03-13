@@ -8,10 +8,10 @@
 - 
 
 ## BASES R
-- Revisar el crud y hacer el reporte
+- hacer 3 transacciones, commit y rollback
 
 ## ISW PRO
-- Terminar la expo para el viernes
+- 
 
 ## TALLER SO
 - 
