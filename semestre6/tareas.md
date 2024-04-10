@@ -2,13 +2,14 @@
 # TAREAS
 
 ## REDES
-- 
+- Preguntas
 
 ## LENGUAJES
 - 
 
 ## BASES R
-- hacer 3 transacciones, commit y rollback
+- Crear dos usuarios, dos roles y darle un rol a cada uno
+- Usuarios y roles
 
 ## ISW PRO
 - 

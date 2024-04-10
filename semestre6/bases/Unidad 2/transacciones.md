@@ -3,3 +3,17 @@
 Una transacción es un conjunto de operaciones que se ejecutan es secuencia para realizar una tarea.
 
 En una empresa que tenga fondos, podemos asegurarnos que haya fondos en una cuenta y luego hacer una transferencia se tienen que actualizar en ambos lados y confirmar que los cambios coincidan.
+
+# Transacciones
+
+## Ciclo de vida de una transacción
+
+Inicio
+> start transaction;
+
+Fin
+> commit;
+
+Retroceso
+> rollback;
+
