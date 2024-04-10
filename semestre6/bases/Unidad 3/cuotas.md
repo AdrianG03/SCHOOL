@@ -26,8 +26,20 @@ Es un espacio de memoria donde se almacenan valores a los que debe acceder una m
 
 En MB
 
-> select table_schema as "base de datos", round(sum(data_length+index_length)/1024/1024,2) as "Tamaño MB" from information_schema.tables group by table_schema;
+> - select table_schema as "base de datos", round(sum(data_length+index_length)/1024/1024,2) as "Tamaño MB" from information_schema.tables group by table_schema;
+> - SELECT ROUND((SUM(Data_length) + SUM(Index_length)) / 1024 / 1024, 2)  AS total_size_MB FROM information_schema.tables WHERE table_schema = 'DiarioPersonal';
 
 En GB
 
-> select table_schema as "base de datos", round(sum(data_length+index_length)/1024/1024/1024,2) as "Tamaño GB" from information_schema.tables group by table_schema;
+> - select table_schema as "base de datos", round(sum(data_length+index_length)/1024/1024/1024,2) as "Tamaño GB" from information_schema.tables group by table_schema;
+> - SELECT ROUND((SUM(Data_length) + SUM(Index_length)) / (1024 *  1024 * 1024), 10)  AS total_size_GB FROM information_schema.tables WHERE table_schema = 'DiarioPersonal';
+
+Una sola base de datos
+> - SELECT
+    table_name AS "Nombre de la Tabla",
+    ROUND((data_length + index_length) / 1024 / 1024, 2) AS "Tamaño Total (MB)",
+    ROUND((data_length) / 1024 / 1024, 2) AS "Tamaño de Datos (MB)",
+    ROUND((index_length) / 1024 / 1024, 2) AS "Tamaño de Índices (MB)"
+FROM information_schema.tables
+WHERE table_schema = 'ControlEscolar'
+ORDER BY (data_length + index_length) DESC;
