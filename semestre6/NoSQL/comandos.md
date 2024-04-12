@@ -32,7 +32,7 @@
 
 > drop keyspace if exists nombre;
 
-### Solicitar parametros de una tabla
+### Solicitar parametros de una tablaya
 
 > desc tabla;
 
@@ -42,6 +42,19 @@ __Especificando keyspace__
 
 __Sin keyspace especificado (estando dentro de uno)__
 > insert into tabla(param1, param2) values('','');
+
+### Para hacer consultas
+
+> agregar allow filtering
+
+### Vista materializada
+
+> create materialized view nombre as select * from t condicion primary key (pk1,pk2);
+
+#### Consultar
+> tracing on;
+
+
 
 
 

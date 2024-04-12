@@ -2,24 +2,24 @@
 # TAREAS
 
 ## REDES
-- Preguntas
+- Preparar el cable para práctica y reporte
 
 ## LENGUAJES
-- 
+- hacer las cosas que dejó
 
 ## BASES R
-- Crear dos usuarios, dos roles y darle un rol a cada uno
-- Usuarios y roles
+- HAcer las preguntas de la práctica 2
 
 ## ISW PRO
 - 
 
 ## TALLER SO
-- 
+- Instalar ubuntu server en la maquina virtual
+- hacer lo que falta de texto
 
 ## ASM
-- 
+- Acabar las practicas
 
 ## Mondongo
-- Hacer la expo de sisa 2 otra vez xd
+- las preguntas que puso
 
