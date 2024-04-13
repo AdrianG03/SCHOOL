@@ -2,24 +2,24 @@
 # TAREAS
 
 ## REDES
-- Preparar el cable para práctica y reporte
+- Reporte
 
 ## LENGUAJES
-- hacer las cosas que dejó
+- 
 
 ## BASES R
-- HAcer las preguntas de la práctica 2
+- 
 
 ## ISW PRO
 - 
 
 ## TALLER SO
 - Instalar ubuntu server en la maquina virtual
-- hacer lo que falta de texto
+- Reporte de instalación
 
 ## ASM
-- Acabar las practicas
+- Acabar las practicas (me faltan 6)
 
 ## Mondongo
-- las preguntas que puso
+- 
 
