@@ -2,7 +2,7 @@
 # TAREAS
 
 ## REDES
-- Reporte
+- 
 
 ## LENGUAJES
 - 
@@ -11,14 +11,13 @@
 - 
 
 ## ISW PRO
-- 
+- repartir los temas 
 
 ## TALLER SO
-- Instalar ubuntu server en la maquina virtual
-- Reporte de instalación
+- Hacer el curso de linux
 
 ## ASM
-- Acabar las practicas (me faltan 6)
+- Acabar las practicas
 
 ## Mondongo
 - 
