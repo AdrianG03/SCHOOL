@@ -1,4 +1,4 @@
-# Actividad supermercado
+# Actividad 
 
 ### Descripción:
 
