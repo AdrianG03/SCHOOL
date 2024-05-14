@@ -2,7 +2,7 @@
 # TAREAS
 
 ## REDES
-- Terminar la practica
+- 
 
 ## LENGUAJES
 - 
@@ -14,11 +14,10 @@
 - 
 
 ## TALLER SO
-- Hacer el curso de linux
-- Reporte de esa cosa del postfix
+- 
 
 ## ASM
-- Subir los programas
+- 
 
 ## Mondongo
 - 
