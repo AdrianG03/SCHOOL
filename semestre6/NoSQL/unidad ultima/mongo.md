@@ -20,6 +20,7 @@ Base de datos -> colecciones -> documentos
 
 ### Insertar una coleccion
 - db.coleccion.insert
+- db.createCollection("Maestros")
 
 ### Eliminar una base de datos
 - db.dropDatabase()
@@ -35,13 +36,54 @@ Base de datos -> colecciones -> documentos
 
 ### insertar datos en una coleccion
 - db.coleccion.insert()
+- db.coleccion.insertMany()
+- db.coleccion .insertOne()
 
 ### buscar datos
 - db.coleccion.find()
+
+- db.coleccion.find().sort({edad: 1}) //para ordenar
 
 - db.coleccion.find().pretty()
 
 - db.coleccion.find({nombre:"Probabilidad II"})
 
-## DATOS
+## Filtrar por rangos
+- db.coleccion.find({edad: {$gt: 20}})
+db.maestros.find({edad: {$gt: 20}, edad:{$lt: 50}})
 
+## DATOS
+- se puede usar como consola de js
+- con cls se limpia la pantalla
+- Puede realizar operaciones matemáticas
+
+## INdicar la base 
+- db
+
+## mostrar bases de datos y colecciones
+- show dbs
+- show collections
+
+## Mostrar una salida personalizada con funciones js
+- db.maestros.find().forEach(maestro => print("Nombre:"+maestro.nombre))
+
+
+## actualizar
+- db.coleccion.update({nombre: Jonathan"},{$set: {edad: 20}})
+- db.maestros.updateOne({nombre: "Jahaziel"},{$set: {edad: 20}})
+
+# para borrar toda la coleccion
+- db.coleccion.drop()
+
+## un solo dato
+- db.colección.drop({nombre: 'miguel'}) ejemplo
+
+## operador and y or
+- db.coleccion.find({$or:[{atri1:''},{atri2:''}]})
+- db.coleccion.find({$and:[{atri1:''},{atri2:''}]})
+
+## operaciones de agregacion
+- db.coleccion.aggregate([{$group: {_id:'$nombre', total:{$sum: '$edad'}}}])
+
+## cantidad de registros que hay
+- db.coleccion.countDocuments({nombre: 'jahaziel'})
