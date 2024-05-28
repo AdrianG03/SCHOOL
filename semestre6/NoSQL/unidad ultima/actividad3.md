@@ -1,15 +1,20 @@
 # Actividad 3
 
 ### crear una base de datos llamada tienda
-- use tienda
+```sql
+use tienda
+```
 
 ### Crear coleccion llamada productos
-- db.createCollection("Productos")
+```sql
+db.createCollection("Productos")
+```
 
 ### 10 registros
     nombre
     precio
 
+```sql
 db.productos.insertMany([
     {nombre: "sabritas", precio: 18},
     {nombre: "coca cola", precio: 20},
@@ -26,3 +31,4 @@ db.productos.insertMany([
 db.coleccion.find().sort({field_name: sort order})
 
 db.maestros.updateOne({quien: },{$set: {escuela:{atr1: ,atr2:}}})
+```
