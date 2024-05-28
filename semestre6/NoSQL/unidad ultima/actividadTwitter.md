@@ -19,7 +19,7 @@ db.createCollection('usuarios')
 db.usuarios.find().sort({ fechar: -1 }).limit(2)
 
 ## Mostrar todos los usuarios que estén en el mismo municipio
-db.usuarios.find('direccion.municipio':'Cuautla')
+db.usuarios.find({'direccion.municipio':'Cuautla'})
 
 ## calcular promedio de edades por municipio
 db.usuarios.aggregate([{$group: {_id: '$direccion.municipio', promedio:{$avg: '$edad'}}}])
