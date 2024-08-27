@@ -1,11 +1,21 @@
 
-# TAREAS 
+# TAREAS
+
+## REDES
+- Hacer los resumenes de las exposiciones
+
+## BASES R
+- 
 
 ## ISW PRO
 - Hacer la documentación
-- expo
+
+## TALLER SO
+- 
 
 ## ASM
 - Hacer la presentación del pic
 
+## Mondongo
+- 
 

@@ -1,60 +1,80 @@
 # Comandos Cassandra
 
 ### Crear un keyspace
-> create keyspace nombre with replication = { 'class': 'SimpleStrategy', 'replication_factor': '1' };
-
+```sql
+create keyspace nombre with replication = { 'class': 'SimpleStrategy', 'replication_factor': '1' };
+```
 ### Usar keyspace
-> use nombre;
+```sql
+use nombre;
+```
 
 ### Crear tabla
-> create table nombre(dato tipo, dato2 tipo, primary key(nombre de la columna1));
+```sql
+create table nombre(dato tipo, dato2 tipo, primary key(nombre de la columna1));
+```
 
-> create table alumnos(nombre text, fecha_nam time, primary key(nombre));
+```sql
+create table alumnos(nombre text, fecha_nam time, primary key(nombre));
+```
 
 ### Crear tabla especificando keyspace
-> create table keyspace.tabla(dato tipo, dato2 tipo, primary key(nombre de la columna1));
+```sql
+create table keyspace.tabla(dato tipo, dato2 tipo, primary key(nombre de la columna1));
+```
 
 ### Consulta los keyspace
-
-> select keyspace_name, table_name from system_schema.tables where keyspace_name = 'eclipse'; // los keyspace con tabla especificos
+```sql
+select keyspace_name, table_name from system_schema.tables where keyspace_name = 'eclipse';
+```
 
 ### Para ver los keyspace (solo uno)
-> select distinct keyspace_name from system_schema.tables;
+```sql
+select distinct keyspace_name from system_schema.tables;
+```
 
 ### Para conrar cuantos hay de cada uno y agruparlos
-> select keyspace_name, count(*) from system_schema.tables group by keyspace_name;
+```sql
+select keyspace_name, count(*) from system_schema.tables group by keyspace_name;
+```
 
 ### Borrar keyspace
-
-> drop keyspace nombre;
+```sql
+drop keyspace nombre;
+```
 
 ### Borrar solo en caso de que exista
-
-> drop keyspace if exists nombre;
+```sql
+drop keyspace if exists nombre;
+```
 
 ### Solicitar parametros de una tablaya
-
-> desc tabla;
+```sql
+desc tabla;
+```
 
 ### Insertar
 __Especificando keyspace__
-> insert into keyspace.tabla(param1, param2) values('','');
+```sql
+insert into keyspace.tabla(param1, param2) values('','');
+```
 
 __Sin keyspace especificado (estando dentro de uno)__
-> insert into tabla(param1, param2) values('','');
+```sql
+insert into tabla(param1, param2) values('','');
+```
 
 ### Para hacer consultas
-
-> agregar allow filtering
+```sql
+agregar allow filtering
+```
 
 ### Vista materializada
-
-> create materialized view nombre as select * from t condicion primary key (pk1,pk2);
+```sql
+create materialized view nombre as select * from t condicion primary key (pk1,pk2);
+```
 
 #### Consultar
-> tracing on;
-
-### 
-
-
-
+```sql
+tracing on;
+```
