@@ -57,3 +57,9 @@
 ### 5.4 Tecnologías para la creación de servicios web 
 
 ### 5.5 Aplicaciones web seguras
+
+35% actividades
+35% practicas
+30% examen
+
+2024_Materia_ApellidoNombre
