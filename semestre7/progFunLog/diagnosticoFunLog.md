@@ -1,1 +1,0 @@
-Steven mi papá y es la verdad
