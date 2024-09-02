@@ -87,14 +87,18 @@ El alumno deberá aplicar los microcontroladores en el diseño de interfaces hom
 - 6.3.1 Hombre-Máquina
 - 6.3.2 Máquina-Máquina
 
-
-
-
-
-
-
 __Beneficios:__
 - Experiencia laboral
 - Experiencia personal
 - Participativo
 - Demostrativo
+
+## Forma de evaluacion
+
+Investigación -------------- 35%
+
+Reporte de practica -------- 35%
+
+Asistencia y participación - 10%
+
+Cuestionario --------------- 20%
