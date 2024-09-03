@@ -24,6 +24,6 @@
 
 - Hacer el video de las cosas esas xd
 
-# PROG
+# PROG fun log
 - Generar hola mundo en ada
 - Java, python, y los 3 C. Crear programa que genere tabla que genere las tablas que de. Y un programa que haga un ciclo y un condicional
