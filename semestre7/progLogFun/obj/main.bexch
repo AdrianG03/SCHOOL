@@ -1,0 +1,19 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+D:\REPOS\SCHOOL\semestre7\progLogFun\hola.gpr
+20240903151948 0911a336c918e914938e6f62d4795ab6
+[BOUND OBJECT FILES]
+D:\REPOS\SCHOOL\semestre7\progLogFun\obj\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LD:\REPOS\SCHOOL\semestre7\progLogFun\obj\
+-LD:\REPOS\SCHOOL\semestre7\progLogFun\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

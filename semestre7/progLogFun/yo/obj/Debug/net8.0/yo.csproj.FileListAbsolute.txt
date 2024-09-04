@@ -1,0 +1,15 @@
+D:\REPOS\SCHOOL\semestre7\progLogFun\yo\bin\Debug\net8.0\yo.exe
+D:\REPOS\SCHOOL\semestre7\progLogFun\yo\bin\Debug\net8.0\yo.deps.json
+D:\REPOS\SCHOOL\semestre7\progLogFun\yo\bin\Debug\net8.0\yo.runtimeconfig.json
+D:\REPOS\SCHOOL\semestre7\progLogFun\yo\bin\Debug\net8.0\yo.dll
+D:\REPOS\SCHOOL\semestre7\progLogFun\yo\bin\Debug\net8.0\yo.pdb
+D:\REPOS\SCHOOL\semestre7\progLogFun\yo\obj\Debug\net8.0\yo.GeneratedMSBuildEditorConfig.editorconfig
+D:\REPOS\SCHOOL\semestre7\progLogFun\yo\obj\Debug\net8.0\yo.AssemblyInfoInputs.cache
+D:\REPOS\SCHOOL\semestre7\progLogFun\yo\obj\Debug\net8.0\yo.AssemblyInfo.cs
+D:\REPOS\SCHOOL\semestre7\progLogFun\yo\obj\Debug\net8.0\yo.csproj.CoreCompileInputs.cache
+D:\REPOS\SCHOOL\semestre7\progLogFun\yo\obj\Debug\net8.0\yo.sourcelink.json
+D:\REPOS\SCHOOL\semestre7\progLogFun\yo\obj\Debug\net8.0\yo.dll
+D:\REPOS\SCHOOL\semestre7\progLogFun\yo\obj\Debug\net8.0\refint\yo.dll
+D:\REPOS\SCHOOL\semestre7\progLogFun\yo\obj\Debug\net8.0\yo.pdb
+D:\REPOS\SCHOOL\semestre7\progLogFun\yo\obj\Debug\net8.0\yo.genruntimeconfig.cache
+D:\REPOS\SCHOOL\semestre7\progLogFun\yo\obj\Debug\net8.0\ref\yo.dll
