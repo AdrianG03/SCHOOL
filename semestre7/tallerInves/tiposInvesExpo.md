@@ -28,4 +28,3 @@ En una investigación no experimental el investigador no manipula las variable p
 
 En esta investigación no se considera ético la manipulación de los datos, simplemente se toman y se analizan sin tener ninguna prueba de por medio.
 
-- Experimento
