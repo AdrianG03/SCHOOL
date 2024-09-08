@@ -1,9 +1,9 @@
-﻿using System;
+using System;
 
 class fun{
 
     void saludar(){
-        Console.WriteLine("Soy una función");
+        Console.WriteLine("Hola");
     }
     
     static void Main(){
