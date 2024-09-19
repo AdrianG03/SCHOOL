@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\USER\\Desktop\\CODES\\SCHOOL\\semestre7\\progLogFun\\yo\\yo.csproj": {}
+    "D:\\REPOS\\SCHOOL\\semestre7\\progLogFun\\yo\\yo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\USER\\Desktop\\CODES\\SCHOOL\\semestre7\\progLogFun\\yo\\yo.csproj": {
+    "D:\\REPOS\\SCHOOL\\semestre7\\progLogFun\\yo\\yo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\Desktop\\CODES\\SCHOOL\\semestre7\\progLogFun\\yo\\yo.csproj",
+        "projectUniqueName": "D:\\REPOS\\SCHOOL\\semestre7\\progLogFun\\yo\\yo.csproj",
         "projectName": "yo",
-        "projectPath": "C:\\Users\\USER\\Desktop\\CODES\\SCHOOL\\semestre7\\progLogFun\\yo\\yo.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\Desktop\\CODES\\SCHOOL\\semestre7\\progLogFun\\yo\\obj\\",
+        "projectPath": "D:\\REPOS\\SCHOOL\\semestre7\\progLogFun\\yo\\yo.csproj",
+        "packagesPath": "C:\\Users\\gueva\\.nuget\\packages\\",
+        "outputPath": "D:\\REPOS\\SCHOOL\\semestre7\\progLogFun\\yo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\gueva\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
