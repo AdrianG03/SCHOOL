@@ -12,7 +12,7 @@
 
 # CONMUTACION
 
-- En que consiste el protocolo RIP
+- 2.1 Segmentación de dominio de colisión y broadcast
 
 # WEB SERVICES
 
@@ -20,11 +20,11 @@
 
 # SISTEMAS PROGRAMABLES
 
-- Traer el material
+- 
 
 # TALLER DE INVESTIGACIÓN
 
-- Hacer el video de las cosas esas xd
+- 
 
 # PROG fun log
 - 
