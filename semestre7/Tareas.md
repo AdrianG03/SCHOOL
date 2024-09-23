@@ -6,7 +6,7 @@
 - Hoja 2: la parte de atras de la solicitud
 - la 1 me tiene que llevar a la 2 y la 2 a la 1
 
-- Enviar las tareas a itc.programacionweb1@gmail.com
+- Enviar las tareas a  
 - Asunto: Actividad 1.1. nc nombre_completo
 - Asunto: Actividad 1.1. nc nc nc nc
 
