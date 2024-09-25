@@ -1,10 +1,25 @@
 # PROG. WEB.
 
-- Crear un sitio, le ponemos empleo-nombre
-- debe tener 2 archivos, hoja1.html y hoja2.html
-- Hoja 1: la parte de en frente de una solicitud de trabajo
-- Hoja 2: la parte de atras de la solicitud
-- la 1 me tiene que llevar a la 2 y la 2 a la 1
+- Crear un sitio, sitio-equipo
+- index.html, tiene que ser una portada
+- debe tener el escudo de tecnm, del itc
+- nombre de los dos
+- integrantes
+- es una fokin portada
+- foto y nombre
+- ponerle un video corto
+
+- Hacer otro sitio sitio-adrian
+- de ahi me tiene que llevar de regreso
+
+- REVISAR TIPOS DE LETRA
+- USAR BACKGROUND
+- LIGAS (MINIMO 3 PAGINAS)
+- VIDEO
+- AUDIO
+- MAPA SENSITIVO
+- meter solicitud 
+
 
 - Enviar las tareas a  
 - Asunto: Actividad 1.1. nc nombre_completo
@@ -12,7 +27,7 @@
 
 # CONMUTACION
 
-- 2.1 Segmentación de dominio de colisión y broadcast
+- 
 
 # WEB SERVICES
 
