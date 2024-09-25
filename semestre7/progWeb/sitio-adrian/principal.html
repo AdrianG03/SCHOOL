@@ -18,8 +18,11 @@
 <body>
     <h1 style="text-align: center;">Portfolio de Adrián</h1>
 
-    <h1>Index</h1>
-    <a href="./hoja1.html">Solicitud de Trabajo</a>
+    <audio id="audio">
+        <source src="./src/funky.mp3" type="audio/mpeg">
+    </audio>
+
+    <button onclick="document.getElementById('audio').play()">Reproducir audio</button>
 
     <header>
         <h1>Portfolio de guevadev</h1>
@@ -27,6 +30,7 @@
         <nav>
             <a href="#Experiencia">Experiencia</a>
             <a href="#Proyectos">Proyectos</a>
+            <a href="./hoja1.html">Solicitud de Trabajo</a>
             <a href="https://www.google.com.mx/" target="_blank" rel="noreferrer">Google</a>
         </nav>
     </header>
@@ -42,10 +46,9 @@
             <li class="list-item">Conferencias</li>
         </ul>
 
-        <a download href="/tipoP/src/yo.jpg">
-            <img id="photo-image" title="Foto de guevadev"
-                alt="Foto de guevadev frente a un espejo con un celular cubriendo su rostro" src="/tipoP/src/yo.jpg"
-                width=200 height=200>
+        <a download href="./src/adrifoto.jpg">
+            <img id="photo-image" title="Foto de guevadev" alt="Foto de guevadev de frente con ropa formal  "
+                src="./src/adrifoto.jpg" width=200 height=200>
         </a>
 
         <h2 id="Proyectos">Proyectos</h2> <!--Comienzo de HTML SEMÁNTICO-->
@@ -128,6 +131,9 @@
         </section>
     </main>
 
+
+
+    <script src="./lib/principal.js"></script>
 </body>
 
 </html>
