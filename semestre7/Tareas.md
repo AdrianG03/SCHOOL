@@ -39,7 +39,7 @@
 
 # TALLER DE INVESTIGACIÓN
 
-- 
+- Lo admito yo Guevara soy el hijo de Steven
 
 # PROG fun log
 - 

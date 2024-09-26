@@ -10,7 +10,25 @@
             background: #41295a;
             background: -webkit-linear-gradient(to right, #2F0743, #41295a);
             background: linear-gradient(to right, #2F0743, #41295a);
-            color: white
+            color: white;
+            font-family: monospace;
+            font-size: x-large;
+        }
+
+        .btnAudio {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .btnAudio:hover {
+            background-color: #45a049;
+            /* Cambio de color al pasar el mouse */
         }
     </style>
 </head>
@@ -22,11 +40,9 @@
         <source src="./src/funky.mp3" type="audio/mpeg">
     </audio>
 
-    <button onclick="document.getElementById('audio').play()">Reproducir audio</button>
+    <button class="btnAudio" onclick="document.getElementById('audio').play()">Reproducir audio</button>
 
     <header>
-        <h1>Portfolio de guevadev</h1>
-
         <nav>
             <a href="#Experiencia">Experiencia</a>
             <a href="#Proyectos">Proyectos</a>
