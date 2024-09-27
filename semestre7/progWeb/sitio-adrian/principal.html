@@ -36,11 +36,28 @@
 <body>
     <h1 style="text-align: center;">Portfolio de Adrián</h1>
 
+    <table width="100%" style="text-align: center;">
+        <tr>
+            <td>
+                <a download href="./src/adrifoto.jpg">
+                    <img id="photo-image" title="Foto de guevadev" alt="Foto de guevadev de frente con ropa formal  "
+                        src="./src/adrifoto.jpg" width=200 height=200>
+                </a>
+            </td>
+            <td>
+                <p>Estudiando Ingenieria en <strong>sistemas</strong> computacionales</p>
+            </td>
+            <td>
+                <button class="btnAudio" onclick="document.getElementById('audio').play()">▶️</button>
+            </td>
+        </tr>
+    </table>
+
     <audio id="audio">
         <source src="./src/funky.mp3" type="audio/mpeg">
     </audio>
 
-    <button class="btnAudio" onclick="document.getElementById('audio').play()">Reproducir audio</button>
+
 
     <header>
         <nav>
@@ -52,20 +69,20 @@
     </header>
     <!--Yo-->
     <main>
-        <p>Estudiando Ingenieria en <strong>sistemas</strong> computacionales</p>
-
         <h2 id="Experiencia">Experiencia</h2>
         <!--Comentario-->
         <ul>
-            <li class="list-item">Hackathon Morelos</li>
-            <li class="list-item">Hackathon Cuautla</li>
+            <li class="list-item">HackMorelos 12 (Doble Ganador de Categoría)</li>
+            <li class="list-item">HackMorelos 13 (Ganador de Categoría)</li>
+            <li class="list-item">Hackathon Cuautla 2023 (Participante)</li>
+            <li class="list-item">Hackathon Cuautla 2024(Asesor)</li>
+            <li class="list-item">HackaTECNM Regional 2024 (Ganador 2do Lugar)</li>
+            <li class="list-item">Asesor de Ciencias Básicas</li>
+            <li class="list-item">Certificación en Nube LIDDEV</li>
             <li class="list-item">Conferencias</li>
         </ul>
 
-        <a download href="./src/adrifoto.jpg">
-            <img id="photo-image" title="Foto de guevadev" alt="Foto de guevadev de frente con ropa formal  "
-                src="./src/adrifoto.jpg" width=200 height=200>
-        </a>
+
 
         <h2 id="Proyectos">Proyectos</h2> <!--Comienzo de HTML SEMÁNTICO-->
         <aside> <!--Es contenido que tiene que ver pero que sigue otro flujo-->
