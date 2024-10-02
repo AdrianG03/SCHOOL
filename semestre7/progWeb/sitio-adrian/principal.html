@@ -7,19 +7,61 @@
     <title>Sitio de Adrián Guevara</title>
     <style>
         body {
-            background: #41295a;
-            background: -webkit-linear-gradient(to right, #2F0743, #41295a);
             background: linear-gradient(to right, #2F0743, #41295a);
             color: white;
-            font-family: monospace;
-            font-size: x-large;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4 {
+            text-align: center;
+        }
+
+        main {
+            margin: 0 auto;
+            max-width: 1000px;
+            padding: 20px;
+        }
+
+        header {
+            background: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+
+        table {
+            width: 100%;
+            margin: 20px 0;
+            border-collapse: collapse;
+        }
+
+        table td {
+            padding: 20px;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        table img {
+            border-radius: 50%;
+            border: 4px solid #fff;
         }
 
         .btnAudio {
-            width: 50px;
-            height: 50px;
+            width: 60px;
+            height: 60px;
             border-radius: 50%;
-            background-color: #000000;
+            background-color: #ff6347;
             color: white;
             border: none;
             cursor: pointer;
@@ -27,73 +69,166 @@
         }
 
         .btnAudio:hover {
-            background-color: #000000;
-            /* Cambio de color al pasar el mouse */
+            background-color: #ff4500;
+        }
+
+        nav ol {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ol li {
+            margin: 10px 0;
+        }
+
+        nav ol li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+
+        nav ol li a:hover {
+            text-decoration: underline;
+        }
+
+        ul,
+        ol {
+            margin: 10px;
+        }
+
+        ul li {
+            padding: 10px;
+        }
+
+        section {
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        details summary {
+            font-size: 1.2rem;
+            cursor: pointer;
+            color: #ff6347;
+        }
+
+        details p {
+            padding: 10px;
+        }
+
+        form {
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        form div {
+            margin-bottom: 10px;
+        }
+
+        input,
+        button,
+        select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-top: 5px;
+        }
+
+        button[type="submit"] {
+            background-color: #ff6347;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #ff4500;
+        }
+
+        video {
+            display: block;
+            margin: 0 auto;
+        }
+
+        img {
+            max-width: 100%;
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.3);
+            border-top: 1px solid #fff;
         }
     </style>
 </head>
 
 <body>
-    <h1 style="text-align: center;">Portfolio de Adrián</h1>
-
-    <table width="100%" style="text-align: center;" border="2">
-        <tr>
-            <td>
-                <a href="./src/adrifoto.jpg">
-                    <img id="photo-image" title="Foto de guevadev" alt="Foto de guevadev de frente con ropa formal  "
-                        src="./src/adrifoto.jpg" width=200 height=200>
-                </a>
-            </td>
-            <td>
-                <p>Estudiando Ingenieria en <strong>sistemas</strong> computacionales</p>
-            </td>
-            <td>
-                <button class="btnAudio" onclick="document.getElementById('audio').play()">▶️</button>
-            </td>
-        </tr>
-    </table>
-
-    <audio id="audio">
-        <source src="./src/funky.mp3" type="audio/mpeg">
-    </audio>
-
-
-    <h2>Index</h2>
     <header>
+        <h1>Portfolio de Adrián Guevara</h1>
+    </header>
+
+    <main>
+        <table border="0">
+            <tr>
+                <td>
+                    <a href="./src/adrifoto.jpg">
+                        <img id="photo-image" title="Foto de guevadev" alt="Foto de guevadev" src="./src/adrifoto.jpg"
+                            width=200 height=200>
+                    </a>
+                </td>
+                <td>
+                    <p>Estudiando Ingeniería en <strong>Sistemas Computacionales</strong></p>
+                </td>
+                <td>
+                    <button class="btnAudio" onclick="document.getElementById('audio').play()">▶️</button>
+                </td>
+            </tr>
+        </table>
+
+        <audio id="audio">
+            <source src="./src/funky.mp3" type="audio/mpeg">
+        </audio>
+
+        <h2>👉🏽 Index</h2>
         <nav>
-            <ol type="A" start="A">
-                <!--Las listas ordenadas, type para cambiar el tipo de puntos y start para decirle donde empezar-->
+            <ol>
                 <li><a href="#Experiencia">Experiencia</a></li>
                 <li><a href="#Proyectos">Proyectos</a></li>
+                <li><a href="#Preguntas">Preguntas Frecuentes</a></li>
+                <li><a href="#Formulario">Formulario de Contacto</a></li>
+                <li><a href="#Video">Video Relajante</a></li>
+                <li><a href="#Lugares">Lugares Visitados</a></li>
                 <li><a href="./hoja1.html">Solicitud de Trabajo</a></li>
                 <li><a href="https://www.google.com.mx/" target="_blank" rel="noreferrer">Google</a></li>
             </ol>
-
         </nav>
-    </header>
-    <!--Yo-->
-    <main>
-        <h2 id="Experiencia">Experiencia</h2>
-        <!--Comentario-->
-        <ul>
-            <li class="list-item">HackMorelos 12 (Doble Ganador de Categoría)</li>
-            <li class="list-item">HackMorelos 13 (Ganador de Categoría)</li>
-            <li class="list-item">Hackathon Cuautla 2023 (Participante)</li>
-            <li class="list-item">Hackathon Cuautla 2024(Asesor)</li>
-            <li class="list-item">HackaTECNM Regional 2024 (Ganador 2do Lugar)</li>
-            <li class="list-item">Asesor de Ciencias Básicas</li>
-            <li class="list-item">Certificación en Nube LIDDEV</li>
-            <li class="list-item">Conferencias</li>
-        </ul>
 
+        <section id="Experiencia">
+            <h2>👉🏽 Experiencia</h2>
+            <ul>
+                <li>HackMorelos 12 (Doble Ganador de Categoría)</li>
+                <li>HackMorelos 13 (Ganador de Categoría)</li>
+                <li>Hackathon Cuautla 2023 (Participante)</li>
+                <li>Hackathon Cuautla 2024 (Asesor)</li>
+                <li>HackaTECNM Regional 2024 (Ganador 2do Lugar)</li>
+                <li>Asesor de Ciencias Básicas</li>
+                <li>Certificación en Nube LIDDEV</li>
+                <li>Conferencias</li>
+            </ul>
+        </section>
 
-
-        <h2 id="Proyectos">Proyectos</h2> <!--Comienzo de HTML SEMÁNTICO-->
-        <aside> <!--Es contenido que tiene que ver pero que sigue otro flujo-->
-            <header> <!--Se puede colocar otro header, como siguiendo un poco la estructura general-->
-                <h3>Mis tecnologías favoritas</h3>
-                <ol type="1" start="1">
-                    <!--Las listas ordenadas, type para cambiar el tipo de puntos y start para decirle donde empezar-->
+        <section id="Proyectos">
+            <h2>👉🏽 Proyectos</h2>
+            <aside>
+                <h3>👉🏽 Mis tecnologías favoritas</h3>
+                <ol>
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>JavaScript</li>
@@ -103,50 +238,34 @@
                     <li>Grafana</li>
                     <li>Mulesoft</li>
                 </ol>
-            </header>
-        </aside>
+            </aside>
 
-        <section> <!--Es como un bloque que contiene algo-->
             <article>
-                <!--un article es un elemento con información propia contenida que sigue teniendo sentido aún cuando lo sacas-->
-                <header>
-                    <h4>SISTEMA INTEGRAL DE LA SOCIEDAD DE ALUMNOS</h4>
-                </header>
+                <h4>SISTEMA INTEGRAL DE LA SOCIEDAD DE ALUMNOS</h4>
                 <p>
-                    Sistema que permite a los alumnos de la facultad de ingeniería de la UAEM, realizar trámites
-                    escolares, consultar calificaciones, consultar horarios, consultar profesores, consultar
-                    compañeros, consultar eventos, consultar noticias, consultar avisos, consultar convocatorias,
-                    consultar becas, consultar bolsa de trabajo, consultar estadísticas, consultar encuestas, consultar.
+                    Sistema que permite a los alumnos de la facultad de ingeniería de la UAEM realizar trámites
+                    escolares, consultar calificaciones, horarios, profesores, eventos, avisos, convocatorias y más.
                 </p>
-                <header>
-                    <h4>LOWERG</h4>
-                </header>
+                <h4>LOWERG</h4>
                 <p>
-                    LowerG es un sistema de monitorización de redes electricas,
-                    que permite la administración del consumo de watts al día,
-                    semana y mes, dando recomendaciones para ahorrar energía,
-                    del mismo modo ofrece alternativas de energías limpias,
-                    además de contar con un servicio de pago para administrar
-                    sus dispositivos.
+                    LowerG es un sistema de monitorización de redes eléctricas que permite administrar el consumo de
+                    energía,
+                    dar recomendaciones para ahorrar, y ofrecer alternativas de energías limpias.
                 </p>
-
             </article>
         </section>
 
-        <section>
-            <h2>Preguntas Frecuentes</h2>
-
+        <section id="Preguntas">
+            <h2>👉🏽 Preguntas Frecuentes</h2>
             <details>
                 <summary>¿Qué estudios tienes?</summary>
                 <p>Estudié en el Tecnológico Nacional de México/Campus Cuautla</p>
             </details>
         </section>
 
-        <section>
-            <h2>Formulario de contacto</h2>
-
+        <section id="Formulario">
+            <h2>👉🏽 Formulario de contacto</h2>
             <form method="post" action="/">
-
                 <fieldset>
                     <legend>Información Personal</legend>
                     <div>
@@ -160,26 +279,44 @@
                         </label>
                     </div>
                     <div>
+                        <label>¿Qué lenguaje necesitas?
+                            <input list="languages" name="languages">
+                        </label>
                         <datalist id="languages">
                             <option value="Javascript"></option>
                             <option value="Java"></option>
                             <option value="Python"></option>
                             <option value="C#"></option>
                         </datalist>
-                        <label>
-                            ¿Qué lenguaje necesitas?
-                            <input list="languages" name="languages">
-                        </label>
                     </div>
                 </fieldset>
-
                 <button type="submit">Enviar contacto</button>
-
             </form>
+        </section>
+
+        <section id="Video">
+            <h2>👉🏽 Video Relajante</h2>
+            <p>Cuando tengo mucho trabajo, a veces veo un video relajante para liberar la tensión.</p>
+            <video width="560" height="315" controls>
+                <source src="./src/relax.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+
+        <section id="Lugares">
+            <h2>Lugares que he visitado</h2>
+            <img src="./src/mexico.png" alt="Mapa de lugares visitados" usemap="#mapa" height="800" width="1000">
+            <map id="mapa">
+                <area shape="rect" coords="600,658,745,745" href="./oaxaca.html" target="_blank" rel="noreferrer">
+                <area shape="rect" coords="587,596,648,648" href="./puebla.html" target="_blank" rel="noreferrer">
+                <area shape="rect" coords="557,351,610,473" href="./tamaulipas.html" target="_blank" rel="noreferrer">
+            </map>
         </section>
     </main>
 
-
+    <footer>
+        <p>&copy; 2024 Adrián Guevara</p>
+    </footer>
 
     <script src="./lib/principal.js"></script>
 </body>
