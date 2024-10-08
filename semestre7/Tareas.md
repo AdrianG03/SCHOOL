@@ -1,25 +1,20 @@
 # PROG. WEB.
 
-- Crear un sitio, sitio-equipo
-- index.html, tiene que ser una portada
-- debe tener el escudo de tecnm, del itc
-- nombre de los dos
-- integrantes
-- es una fokin portada
-- foto y nombre
-- ponerle un video corto
+- 2.1 instalar el apache en usr/local/miapache
+- Hacer hola mundo en apache
+miercoles
 
-- Hacer otro sitio sitio-adrian
-- de ahi me tiene que llevar de regreso
+- 2.2 Página debe llevar
+- menu
+- carrucel
+- botones
+- 2 cosas más que me gusten
+viernes
 
-- REVISAR TIPOS DE LETRA
-- USAR BACKGROUND
-- LIGAS (MINIMO 3 PAGINAS)
-- VIDEO
-- AUDIO
-- MAPA SENSITIVO
-- meter solicitud 
-
+- 2.3 usar un gestor CMS
+- joomla
+- con los mismos elementos que lo anterior
+lunes
 
 - Enviar las tareas a  
 - Asunto: Actividad 1.1. nc nombre_completo
