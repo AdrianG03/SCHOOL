@@ -34,7 +34,7 @@ lunes
 
 # TALLER DE INVESTIGACIÓN
 
-- 
+- 3 definiciones de hipótesis de 3 autores difeerentes. con ejemplos
 
 # PROG fun log
 - 
