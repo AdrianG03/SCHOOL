@@ -4,11 +4,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href="./output.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
   <title>Styled Page</title>
 </head>
 
-<body class="flex justify-center items-center min-h-screen bg-gray-100">
+<body>
+  <!-- //ANCHOR - Banner -->
+  <!-- component -->
   <!-- Header -->
   <header>
     <!-- navbar and menu -->
@@ -19,20 +21,20 @@
         <div>
           <h1
             class="text-2xl font-bold bg-gradient-to-tr from-indigo-600 to-green-600 bg-clip-text text-transparent hover:cursor-pointer">
-            Adsla</h1>
+            PORTFOLIO ADRIAN</h1>
         </div>
 
         <div>
 
           <div class="hover:cursor-pointer sm:hidden">
             <spnan class="h-1 rounded-full block w-8 mb-1 bg-gradient-to-tr from-indigo-600 to-green-600"></spnan>
-            <spnan class="h-1 rounded-full block w-8 mb-1 bg-gradient-to-tr from-indigo-600 to-green-600"></spnan>
+            <spnan class="h-1 rounded-full block w- 8 mb-1 bg-gradient-to-tr from-indigo-600 to-green-600"></spnan>
             <spnan class="h-1 rounded-full block w-8 mb-1 bg-gradient-to-tr from-indigo-600 to-green-600"></spnan>
           </div>
           <div class="flex items-center">
 
             <ul class="sm:flex space-x-4 hidden items-center">
-              <li><a href="#" class="text-gray-700 hover:text-indigo-600 text-md ">Home</a></li>
+              <li><a href="#" class="text-gray-700 hover:text-indigo-600 text-md ">Yo</a></li>
               <li><a href="#" class="text-gray-700 hover:text-indigo-600 text-md ">About</a></li>
               <li><a href="#" class="text-gray-700 hover:text-indigo-600 text-md ">Services</a></li>
               <li><a href="#" class="text-gray-700 hover:text-indigo-600 text-md ">Products</a></li>
@@ -53,12 +55,11 @@
   <main>
     <!-- section hero -->
     <section>
-      <div
-        class="bg-gray-100 sm:grid grid-cols-5 grid-rows-2 px-4 py-6 min-h-full lg:min-h-screen space-y-6 sm:space-y-0 sm:gap-4">
+      <div class="bg-gray-100 sm:grid grid-cols-5 grid-rows-2 px-4 py-4 h-auto lg:h-90 space-y-6 sm:space-y-0 sm:gap-4">
 
         <div class="h-96 col-span-4 bg-gradient-to-tr from-indigo-800 to-indigo-500 rounded-md flex items-center">
-          <div class="ml-20 w-80">
-            <h2 class="text-white text-4xl">Adsla</h2>
+          <div class="ml-20 w-100">
+            <h2 class="text-white text-4xl">Adrián Guevara Rendón</h2>
             <p class="text-indigo-100 mt-4 capitalize font-thin tracking-wider leading-7">Lorem ipsum dolor sit amet
               consectetur adipisicing elit. Sed, dolore?</p>
 
@@ -96,6 +97,197 @@
     </section>
 
   </main>
+
+  <!-- //ANCHOR - Carousel -->
+  <!-- component -->
+  <!-- Display Container (not part of component) START -->
+  <div class="m-10 mx-auto p-16 bg-gray-200">
+
+    <!-- Carousel Body -->
+    <div class="relative rounded-lg block md:flex items-center bg-gray-100 shadow-xl" style="min-height: 19rem;">
+      <div class="relative w-full md:w-2/5 h-full overflow-hidden rounded-t-lg md:rounded-t-none md:rounded-l-lg"
+        style="min-height: 19rem;">
+        <img class="absolute inset-0 w-full h-full object-cover object-center"
+          src="https://stripe.com/img/v3/payments/overview/photos/missguided.jpg" alt="">
+        <div class="absolute inset-0 w-full h-full bg-indigo-900 opacity-75"></div>
+        <div class="absolute inset-0 w-full h-full flex items-center justify-center fill-current text-white">
+          <svg class="w-full h-24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 239 120">
+            <path
+              d="M4.21 86.4V33.31h8.94l4 28.85.86 9.52.87-9.52 4-28.85h9.02V86.4h-5.19V42.83l-.87 7.22-5.19 36.35h-5.19l-5.2-36.93-.57-6.64V86.4zm35.79 0h6V33.31h-6zm114.24 0h6.06V33.31h-6.06zm46.16-24h5.48v-6.01h-5.48v-17h9.23v-6.08h-15.31V86.4h15.29v-6.06h-9.23zm-60-29.14v44.19a2.89 2.89 0 1 1-5.77 0V33.31h-6.34v44.14a9.23 9.23 0 1 0 18.46 0V33.31zm40.11 44.14V42.55a2.9 2.9 0 0 0-2.89-2.89h-2.88v41h2.88a3.68 3.68 0 0 0 2.89-3.18zm-3.21-44.09a9.12 9.12 0 0 1 9.23 9.24v34.9a9.12 9.12 0 0 1-9.23 9.24h-9.23V33.31h9.23m51.64 44.14v-34.9a2.89 2.89 0 0 0-2.88-2.89h-2.89v41h2.89a3.67 3.67 0 0 0 2.88-3.18zm-2.88-44.14a9.06 9.06 0 0 1 8.94 9.24v34.9a9.12 9.12 0 0 1-9.23 9.24h-9.23V33.31h9.52M89.31 57.55c-2.88-2.6-5.19-4.91-5.19-9.23v-5.77A2.89 2.89 0 0 1 87 39.66a3.1 3.1 0 0 1 2.89 2.89v6.05H96v-6.05a9.24 9.24 0 1 0-18.47 0v6.05c.58 6.93 4.62 10.68 7.5 13.56 2.89 2.6 5.2 4.91 5.2 9.24v6a2.89 2.89 0 1 1-5.77 0v-8.89h-6.11v8.94a9.23 9.23 0 1 0 18.46 0v-6c-.57-7.22-4.32-10.68-7.5-13.85m-25.1 0C61.33 55 59 52.64 59 48.32v-5.77a2.89 2.89 0 1 1 5.77 0v6.05h6.06v-6.05a9.24 9.24 0 1 0-18.47 0v6.05c0 6.93 4 10.68 6.93 13.56 2.88 2.6 5.19 4.91 5.19 9.24v6a2.89 2.89 0 0 1-2.88 2.89 3.1 3.1 0 0 1-2.89-2.89v-8.89h-5.46v8.94a9.23 9.23 0 1 0 18.46 0v-6c-.28-7.22-4.32-10.68-7.5-13.85m56.84-9.23v-5.82a9.24 9.24 0 1 0-18.47 0v34.9a9.45 9.45 0 0 0 9 9.24 6.63 6.63 0 0 0 6.34-4l2.89 4V62.45h-9.23v6.06h2.88v8.94a2.73 2.73 0 0 1-2.88 2.89 2.89 2.89 0 0 1-2.89-2.89v-34.9a2.9 2.9 0 0 1 2.89-2.89 3.1 3.1 0 0 1 2.88 2.89v6.05h6.64z">
+            </path>
+          </svg>
+        </div>
+      </div>
+      <div class="w-full md:w-3/5 h-full flex items-center bg-gray-100 rounded-lg">
+        <div class="p-12 md:pr-24 md:pl-16 md:py-12">
+          <p class="text-gray-600"><span class="text-gray-900">Missguided</span> is a UK-based fashion retailer that has
+            nearly doubled in size since last year. They integrated Stripe to deliver seamless checkout across mobile
+            and web for customers in 100+ countries, all while automatically combating fraud.</p>
+          <a class="flex items-baseline mt-3 text-indigo-600 hover:text-indigo-900 focus:text-indigo-900" href="">
+            <span>Learn more about our users</span>
+            <span class="text-xs ml-1">&#x279c;</span>
+          </a>
+        </div>
+        <svg class="hidden md:block absolute inset-y-0 h-full w-24 fill-current text-gray-100 -ml-12"
+          viewBox="0 0 100 100" preserveAspectRatio="none">
+          <polygon points="50,0 100,0 50,100 0,100" />
+        </svg>
+      </div>
+      <button
+        class="absolute top-0 mt-32 left-0 bg-white rounded-full shadow-md h-12 w-12 text-2xl text-indigo-600 hover:text-indigo-400 focus:text-indigo-400 -ml-6 focus:outline-none focus:shadow-outline">
+        <span class="block" style="transform: scale(-1);">&#x279c;</span>
+      </button>
+      <button
+        class="absolute top-0 mt-32 right-0 bg-white rounded-full shadow-md h-12 w-12 text-2xl text-indigo-600 hover:text-indigo-400 focus:text-indigo-400 -mr-6 focus:outline-none focus:shadow-outline">
+        <span class="block" style="transform: scale(1);">&#x279c;</span>
+      </button>
+    </div>
+
+    <!-- Carousel Tabs -->
+    <div class="flex items-center pt-5 justify-between">
+      <button class="px-2 opacity-50 hover:opacity-100 focus:opacity-100"><img class="w-full"
+          src="https://stripe.com/img/v3/payments/overview/logos/kickstarter.svg" alt=""
+          style="max-height: 60px;"></button>
+      <button class="px-2 opacity-50 hover:opacity-100 focus:opacity-100"><img class="w-full"
+          src="https://stripe.com/img/v3/payments/overview/logos/slack.svg" alt="" style="max-height: 60px;"></button>
+      <button class="px-2 opacity-50 hover:opacity-100 focus:opacity-100"><img class="w-full"
+          src="https://stripe.com/img/v3/payments/overview/logos/glossier.svg" alt=""
+          style="max-height: 60px;"></button>
+      <button class="px-2 opacity-50 hover:opacity-100 focus:opacity-100"><img class="w-full"
+          src="https://stripe.com/img/v3/payments/overview/logos/charity_water.svg" alt=""
+          style="max-height: 60px;"></button>
+      <button class="px-2 opacity-100 hover:opacity-100 focus:opacity-100"><img class="w-full"
+          src="https://stripe.com/img/v3/payments/overview/logos/missguided.svg" alt=""
+          style="max-height: 60px;"></button>
+    </div>
+
+  </div>
+
+  <!-- //ANCHOR - Form -->
+  <!-- component -->
+  <div class="flex items-center justify-center p-12">
+    <!-- Author: FormBold Team -->
+    <!-- Learn More: https://formbold.com -->
+    <div class="mx-auto w-full max-w-[550px]">
+      <form action="https://formbold.com/s/FORM_ID" method="POST">
+        <div class="-mx-3 flex flex-wrap">
+          <div class="w-full px-3 sm:w-1/2">
+            <div class="mb-5">
+              <label for="fName" class="mb-3 block text-base font-medium text-[#07074D]">
+                First Name
+              </label>
+              <input type="text" name="fName" id="fName" placeholder="First Name"
+                class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md" />
+            </div>
+          </div>
+          <div class="w-full px-3 sm:w-1/2">
+            <div class="mb-5">
+              <label for="lName" class="mb-3 block text-base font-medium text-[#07074D]">
+                Last Name
+              </label>
+              <input type="text" name="lName" id="lName" placeholder="Last Name"
+                class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md" />
+            </div>
+          </div>
+        </div>
+        <div class="mb-5">
+          <label for="guest" class="mb-3 block text-base font-medium text-[#07074D]">
+            How many guest are you bringing?
+          </label>
+          <input type="number" name="guest" id="guest" placeholder="5" min="0"
+            class="w-full appearance-none rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md" />
+        </div>
+
+        <div class="-mx-3 flex flex-wrap">
+          <div class="w-full px-3 sm:w-1/2">
+            <div class="mb-5">
+              <label for="date" class="mb-3 block text-base font-medium text-[#07074D]">
+                Date
+              </label>
+              <input type="date" name="date" id="date"
+                class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md" />
+            </div>
+          </div>
+          <div class="w-full px-3 sm:w-1/2">
+            <div class="mb-5">
+              <label for="time" class="mb-3 block text-base font-medium text-[#07074D]">
+                Time
+              </label>
+              <input type="time" name="time" id="time"
+                class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md" />
+            </div>
+          </div>
+        </div>
+
+        <div class="mb-5">
+          <label class="mb-3 block text-base font-medium text-[#07074D]">
+            Are you coming to the event?
+          </label>
+          <div class="flex items-center space-x-6">
+            <div class="flex items-center">
+              <input type="radio" name="radio1" id="radioButton1" class="h-5 w-5" />
+              <label for="radioButton1" class="pl-3 text-base font-medium text-[#07074D]">
+                Yes
+              </label>
+            </div>
+            <div class="flex items-center">
+              <input type="radio" name="radio1" id="radioButton2" class="h-5 w-5" />
+              <label for="radioButton2" class="pl-3 text-base font-medium text-[#07074D]">
+                No
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <button
+            class="hover:shadow-form rounded-md bg-[#6A64F1] py-3 px-8 text-center text-base font-semibold text-white outline-none">
+            Submit
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- //ANCHOR - Social Media Buttons -->
+  <div ">
+    <div class=" grid place-items-center mx-auto p-20 sm:my-auto bg-white rounded-3xl space-y-10">
+    <h1 class="text-5xl font-semibold text-blue-500">Social Media Buttons</h1>
+    <div class="flex items-center justify-center space-x-3">
+
+      <button class="bg-blue-500 px-4 py-2 font-semibold text-white inline-flex items-center space-x-2 rounded">
+        <svg class="w-5 h-5 fill-current" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path
+            d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+        </svg>
+        <span>Facebook</span>
+      </button>
+      <button class="bg-blue-300 px-4 py-2 font-semibold text-white inline-flex items-center space-x-2 rounded">
+        <svg class="w-5 h-5 fill-current" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path
+            d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z" />
+        </svg>
+        <span>Twitter</span>
+      </button>
+      <button class="bg-red-500 px-4 py-2 font-semibold text-white inline-flex items-center space-x-2 rounded">
+        <svg class="w-5 h-5 fill-current" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M12 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0zm5.01 4.744c.688 0 1.25.561 1.25 1.249a1.25 1.25 0 0 1-2.498.056l-2.597-.547-.8 3.747c1.824.07 3.48.632 4.674 1.488.308-.309.73-.491 1.207-.491.968 0 1.754.786 1.754 1.754 0 .716-.435 1.333-1.01 1.614a3.111 3.111 0 0 1 .042.52c0 2.694-3.13 4.87-7.004 4.87-3.874 0-7.004-2.176-7.004-4.87 0-.183.015-.366.043-.534A1.748 1.748 0 0 1 4.028 12c0-.968.786-1.754 1.754-1.754.463 0 .898.196 1.207.49 1.207-.883 2.878-1.43 4.744-1.487l.885-4.182a.342.342 0 0 1 .14-.197.35.35 0 0 1 .238-.042l2.906.617a1.214 1.214 0 0 1 1.108-.701zM9.25 12C8.561 12 8 12.562 8 13.25c0 .687.561 1.248 1.25 1.248.687 0 1.248-.561 1.248-1.249 0-.688-.561-1.249-1.249-1.249zm5.5 0c-.687 0-1.248.561-1.248 1.25 0 .687.561 1.248 1.249 1.248.688 0 1.249-.561 1.249-1.249 0-.687-.562-1.249-1.25-1.249zm-5.466 3.99a.327.327 0 0 0-.231.094.33.33 0 0 0 0 .463c.842.842 2.484.913 2.961.913.477 0 2.105-.056 2.961-.913a.361.361 0 0 0 .029-.463.33.33 0 0 0-.464 0c-.547.533-1.684.73-2.512.73-.828 0-1.979-.196-2.512-.73a.326.326 0 0 0-.232-.095z" />
+        </svg>
+        <span>Reddit</span>
+      </button>
+      <button class="bg-pink-600 px-4 py-2 font-semibold text-white inline-flex items-center space-x-2 rounded">
+        <svg class="w-5 h-5 fill-current" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <title>Pinterest icon</title>
+          <path
+            d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.162-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.099.12.112.225.085.345-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.401.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.354-.629-2.758-1.379l-.749 2.848c-.269 1.045-1.004 2.352-1.498 3.146 1.123.345 2.306.535 3.55.535 6.607 0 11.985-5.365 11.985-11.987C23.97 5.39 18.592.026 11.985.026L12.017 0z" />
+        </svg>
+        <span>Pinterest</span>
+      </button>
+    </div>
+  </div>
+  </div>
+
 </body>
 
 </html>
