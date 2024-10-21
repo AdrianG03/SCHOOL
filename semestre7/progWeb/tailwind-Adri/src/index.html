@@ -4,13 +4,15 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href="./output.css" rel="stylesheet" />
-  <title>Styled Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <title>Adri Tailwindcss</title>
 </head>
 
-<body class="flex justify-center items-center min-h-screen bg-gray-100">
+<body>
+  <!-- //ANCHOR - Banner -->
+  <!-- component -->
   <!-- Header -->
-  <header>
+  <header id="prin">
     <!-- navbar and menu -->
     <nav class="shadow">
 
@@ -19,26 +21,17 @@
         <div>
           <h1
             class="text-2xl font-bold bg-gradient-to-tr from-indigo-600 to-green-600 bg-clip-text text-transparent hover:cursor-pointer">
-            Adsla</h1>
+            PORTFOLIO ADRIAN</h1>
         </div>
 
         <div>
 
           <div class="hover:cursor-pointer sm:hidden">
             <spnan class="h-1 rounded-full block w-8 mb-1 bg-gradient-to-tr from-indigo-600 to-green-600"></spnan>
-            <spnan class="h-1 rounded-full block w-8 mb-1 bg-gradient-to-tr from-indigo-600 to-green-600"></spnan>
+            <spnan class="h-1 rounded-full block w- 8 mb-1 bg-gradient-to-tr from-indigo-600 to-green-600"></spnan>
             <spnan class="h-1 rounded-full block w-8 mb-1 bg-gradient-to-tr from-indigo-600 to-green-600"></spnan>
           </div>
           <div class="flex items-center">
-
-            <ul class="sm:flex space-x-4 hidden items-center">
-              <li><a href="#" class="text-gray-700 hover:text-indigo-600 text-md ">Home</a></li>
-              <li><a href="#" class="text-gray-700 hover:text-indigo-600 text-md ">About</a></li>
-              <li><a href="#" class="text-gray-700 hover:text-indigo-600 text-md ">Services</a></li>
-              <li><a href="#" class="text-gray-700 hover:text-indigo-600 text-md ">Products</a></li>
-              <li><a href="#" class="text-gray-700 hover:text-indigo-600 text-md ">Contact</a></li>
-            </ul>
-
             <div class="md:flex items-center hidden space-x-4 ml-8 lg:ml-12">
               <h1 class="text-text-gray-600  py-2 hover:cursor-pointer hover:text-indigo-600">LOGIN</h1>
               <h1
@@ -53,24 +46,28 @@
   <main>
     <!-- section hero -->
     <section>
-      <div
-        class="bg-gray-100 sm:grid grid-cols-5 grid-rows-2 px-4 py-6 min-h-full lg:min-h-screen space-y-6 sm:space-y-0 sm:gap-4">
+      <div class="bg-gray-100 sm:grid grid-cols-5 grid-rows-2 px-4 py-4 h-90 lg:h-90 space-y-6 sm:space-y-0 sm:gap-4">
 
         <div class="h-96 col-span-4 bg-gradient-to-tr from-indigo-800 to-indigo-500 rounded-md flex items-center">
-          <div class="ml-20 w-80">
-            <h2 class="text-white text-4xl">Adsla</h2>
-            <p class="text-indigo-100 mt-4 capitalize font-thin tracking-wider leading-7">Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Sed, dolore?</p>
+          <div class="ml-20 w-100">
+            <h2 class="text-white text-4xl">Adrián Guevara Rendón</h2>
+            <p class="text-indigo-100 mt-4 capitalize font-thin tracking-wider leading-7">
+              Soy Adrián Guevara, estudiante de Ingeniería en Sistemas Computacionales en
+              en Instituto Tecnológico de Cuautla. Me apasiona la programación y el desarrollo web.
+              Soy un apasionado de la comunicación y la tecnología, me gusta aprender cosas nuevas y
+              compartir mis conocimientos con los demás.
+            </p>
 
-            <a href="#"
-              class="uppercase inline-block mt-8 text-sm bg-white py-2 px-4 rounded font-semibold hover:bg-indigo-100">get
-              start</a>
+            <a href="https://github.com/AdrianG03"
+              class="uppercase inline-block mt-8 text-sm bg-white py-2 px-4 rounded font-semibold hover:bg-indigo-100">
+              GitHub
+            </a>
           </div>
 
         </div>
         <div class="h-96 col-span-1 ">
           <div class="bg-white py-3 px-4 rounded-lg flex justify-around items-center ">
-            <input type="text" placeholder="seach"
+            <input type="text" placeholder="Search"
               class=" bg-gray-100 rounded-md  outline-none pl-2 ring-indigo-700 w-full mr-2 p-2">
             <span><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
                 stroke="currentColor ">
@@ -83,11 +80,11 @@
             <h1 class="text-center text-xl my-4  bg-white py-2 rounded-md border-b-2 cursor-pointer  text-gray-600">
               Service</h1>
             <div class="bg-white rounded-md list-none  text-center ">
-              <li class="py-3 border-b-2"><a href="#" class="list-none  hover:text-indigo-600">Products</a></li>
-              <li class="py-3 border-b-2"><a href="#" class="list-none  hover:text-indigo-600">Models</a></li>
-              <li class="py-3 border-b-2"><a href="#" class="list-none  hover:text-indigo-600">Pricing</a></li>
-              <li class="py-3 border-b-2"><a href="#" class="list-none  hover:text-indigo-600">Hire</a></li>
-              <li class="py-3 "><a href="#" class="list-none border-b-2 hover:text-indigo-600">Business</a></li>
+              <li class="py-3 border-b-2"><a href="#prin" class="list-none  hover:text-indigo-600">Menú</a></li>
+              <li class="py-3 border-b-2"><a href="#carro" class="list-none  hover:text-indigo-600">Carrusel</a></li>
+              <li class="py-3 border-b-2"><a href="#timeline" class="list-none  hover:text-indigo-600">Eventos</a></li>
+              <li class="py-3 border-b-2"><a href="#form" class="list-none  hover:text-indigo-600">Formulario</a></li>
+              <li class="py-3 border-b-2"><a href="#redes" class="list-none hover:text-indigo-600">Redes</a></li>
             </div>
           </div>
         </div>
@@ -96,6 +93,290 @@
     </section>
 
   </main>
+
+  <!-- //ANCHOR - Carousel -->
+  <!-- component -->
+  <!-- Display Container (not part of component) START -->
+  <div id="carro" class="m-10 mx-auto p-16 bg-gray-200">
+    <div class="relative rounded-lg block md:flex items-center bg-gray-100 shadow-xl" style="min-height: 19rem;">
+      <div id="carousel-image"
+        class="relative w-full md:w-2/5 h-full overflow-hidden rounded-t-lg md:rounded-t-none md:rounded-l-lg"
+        style="min-height: 19rem;">
+        <img id="carousel-img" class="absolute inset-0 w-full h-full object-cover object-center"
+          src="../img/clancy.webp" alt="">
+        <div class="absolute inset-0 w-full h-full bg-indigo-900 opacity-75"></div>
+        <div class="absolute inset-0 w-full h-full flex items-center justify-center fill-current text-white">
+          <p id="carousel-title"
+            style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size:400%;">CLANCY</p>
+        </div>
+      </div>
+      <div class="w-full md:w-3/5 h-full flex items-center bg-gray-100 rounded-lg">
+        <div class="p-12 md:pr-24 md:pl-16 md:py-12">
+          <p id="carousel-description" class="text-gray-600">
+            Es el último disco del grupo Twenty One Pilots, y además es el mejor disco de la
+            historia de la música. Es un disco que te hará sentir emociones que nunca antes habías sentido.
+            Muy personal, ritmos que recuerdan a Linkin Park y algunas otras que aportan al género
+            de la música alternativa.</p>
+          <a id="carousel-link"
+            class="flex items-baseline mt-3 text-indigo-600 hover:text-indigo-900 focus:text-indigo-900"
+            href="https://open.spotify.com/intl-es/album/1KFWgQTw3EMTQebaaepVBI?si=RjJXf35YQnim3gbTY-62Xw"
+            target="_blank">
+            <span>Go to Listen</span>
+            <span class="text-xs ml-1">&#x279c;</span>
+          </a>
+        </div>
+      </div>
+      <button id="left-button"
+        class="absolute top-0 mt-32 left-0 bg-white rounded-full shadow-md h-12 w-12 text-2xl text-indigo-600 hover:text-indigo-400 focus:text-indigo-400 -ml-6 focus:outline-none focus:shadow-outline">
+        <span class="block" style="transform: scale(-1);">&#x279c;</span>
+      </button>
+      <button id="right-button"
+        class="absolute top-0 mt-32 right-0 bg-white rounded-full shadow-md h-12 w-12 text-2xl text-indigo-600 hover:text-indigo-400 focus:text-indigo-400 -mr-6 focus:outline-none focus:shadow-outline">
+        <span class="block" style="transform: scale(1);">&#x279c;</span>
+      </button>
+    </div>
+  </div>
+
+
+  <!-- Carousel Tabs -->
+  <div class="flex items-center pt-5 justify-between">
+    <button class="px-2 opacity-50 hover:opacity-100 focus:opacity-100"><img class="w-full"
+        src="https://stripe.com/img/v3/payments/overview/logos/kickstarter.svg" alt=""
+        style="max-height: 60px;"></button>
+    <button class="px-2 opacity-50 hover:opacity-100 focus:opacity-100"><img class="w-full"
+        src="https://stripe.com/img/v3/payments/overview/logos/slack.svg" alt="" style="max-height: 60px;"></button>
+    <button class="px-2 opacity-50 hover:opacity-100 focus:opacity-100"><img class="w-full"
+        src="https://stripe.com/img/v3/payments/overview/logos/glossier.svg" alt="" style="max-height: 60px;"></button>
+    <button class="px-2 opacity-50 hover:opacity-100 focus:opacity-100"><img class="w-full"
+        src="https://stripe.com/img/v3/payments/overview/logos/charity_water.svg" alt=""
+        style="max-height: 60px;"></button>
+    <button class="px-2 opacity-100 hover:opacity-100 focus:opacity-100"><img class="w-full"
+        src="https://stripe.com/img/v3/payments/overview/logos/missguided.svg" alt=""
+        style="max-height: 60px;"></button>
+  </div>
+
+  </div>
+
+  <!-- //ANCHOR TimeLine -->
+  <div id="timeline" class="w-10/12 md:w-7/12 lg:6/12 mx-auto relative py-20">
+    <h1 class="text-3xl text-center font-bold text-blue-500">DATOS INERESANTES</h1>
+    <div class="border-l-2 mt-10">
+      <!-- Card 1 -->
+      <div
+        class="transform transition cursor-pointer hover:-translate-y-2 ml-10 relative flex items-center px-6 py-4 bg-blue-600 text-white rounded mb-10 flex-col md:flex-row space-y-4 md:space-y-0">
+        <!-- Dot Follwing the Left Vertical Line -->
+        <div class="w-5 h-5 bg-blue-600 absolute -left-10 transform -translate-x-2/4 rounded-full z-10 mt-2 md:mt-0">
+        </div>
+
+        <!-- Line that connecting the box with the vertical line -->
+        <div class="w-10 h-1 bg-blue-300 absolute -left-10 z-0"></div>
+
+        <!-- Content that showing in the box -->
+        <div class="flex-auto">
+          <h1 class="text-lg">DATO 1</h1>
+          <h1 class="text-xl font-bold">Me encanta el chocolate pero soy allergico tambien, me hace
+            menos daño si tiene leche.
+          </h1>
+          <h3>Estado: Tite</h3>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div
+        class="transform transition cursor-pointer hover:-translate-y-2 ml-10 relative flex items-center px-6 py-4 bg-pink-600 text-white rounded mb-10 flex-col md:flex-row space-y-4 md:space-y-0">
+        <!-- Dot Follwing the Left Vertical Line -->
+        <div class="w-5 h-5 bg-pink-600 absolute -left-10 transform -translate-x-2/4 rounded-full z-10 mt-2 md:mt-0">
+        </div>
+
+        <!-- Line that connecting the box with the vertical line -->
+        <div class="w-10 h-1 bg-pink-300 absolute -left-10 z-0"></div>
+
+        <!-- Content that showing in the box -->
+        <div class="flex-auto">
+          <h1 class="text-lg">DATO 2</h1>
+          <h1 class="text-xl font-bold">Odio que me toquen el dedo meñique del pie.</h1>
+          <h3>Estado: Enojao</h3>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div
+        class="transform transition cursor-pointer hover:-translate-y-2 ml-10 relative flex items-center px-6 py-4 bg-green-600 text-white rounded mb-10 flex-col md:flex-row space-y-4 md:space-y-0">
+        <!-- Dot Follwing the Left Vertical Line -->
+        <div class="w-5 h-5 bg-green-600 absolute -left-10 transform -translate-x-2/4 rounded-full z-10 mt-2 md:mt-0">
+        </div>
+
+        <!-- Line that connecting the box with the vertical line -->
+        <div class="w-10 h-1 bg-green-300 absolute -left-10 z-0"></div>
+
+        <!-- Content that showing in the box -->
+        <div class="flex-auto">
+          <h1 class="text-lg">DATO 3</h1>
+          <h1 class="text-xl font-bold">Mi color favorito es el negro y el naranja, no me gusta tanto el rojo.</h1>
+          <h3>Estado: Astetik</h3>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div
+        class="transform transition cursor-pointer hover:-translate-y-2 ml-10 relative flex items-center px-6 py-4 bg-purple-600 text-white rounded mb-10 flex-col md:flex-row space-y-4 md:space-y-0">
+        <!-- Dot Follwing the Left Vertical Line -->
+        <div class="w-5 h-5 bg-purple-600 absolute -left-10 transform -translate-x-2/4 rounded-full z-10 mt-2 md:mt-0">
+        </div>
+
+        <!-- Line that connecting the box with the vertical line -->
+        <div class="w-10 h-1 bg-purple-300 absolute -left-10 z-0"></div>
+
+        <!-- Content that showing in the box -->
+        <div class="flex-auto">
+          <h1 class="text-lg">DATO 4</h1>
+          <h1 class="text-xl font-bold">Soy disléxico</h1>
+          <h3>Estado: Lisdéxico</h3>
+        </div>
+      </div>
+
+      <!-- Card 5 -->
+      <div
+        class="transform transition cursor-pointer hover:-translate-y-2 ml-10 relative flex items-center px-6 py-4 bg-yellow-600 text-white rounded mb-10 flex-col md:flex-row">
+        <!-- Dot Follwing the Left Vertical Line -->
+        <div class="w-5 h-5 bg-yellow-600 absolute -left-10 transform -translate-x-2/4 rounded-full z-10 -mt-2 md:mt-0">
+        </div>
+
+        <!-- Line that connecting the box with the vertical line -->
+        <div class="w-10 h-1 bg-yellow-300 absolute -left-10 z-0"></div>
+
+        <!-- Content that showing in the box -->
+        <div class="flex-auto">
+          <h1 class="text-lg">DATO 5</h1>
+          <h1 class="text-xl font-bold">Solía ser jugador activo de YU-GI-OH! Hasta que me quede pobre.</h1>
+          <h3>Estado: Morelos xd</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- //ANCHOR - Form -->
+  <!-- component -->
+  <h1 class="text-3xl text-center font-bold text-blue-500">FORMULARIO DE CONTACTO</h1>
+  <div id="form" class="flex items-center justify-center p-12">
+    <!-- Author: FormBold Team -->
+    <!-- Learn More: https://formbold.com -->
+    <div class="mx-auto w-full max-w-[550px]">
+      <form action="https://formbold.com/s/FORM_ID" method="POST">
+        <div class="-mx-3 flex flex-wrap">
+          <div class="w-full px-3 sm:w-1/2">
+            <div class="mb-5">
+              <label for="fName" class="mb-3 block text-base font-medium text-[#07074D]">
+                First Name
+              </label>
+              <input type="text" name="fName" id="fName" placeholder="First Name"
+                class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md" />
+            </div>
+          </div>
+          <div class="w-full px-3 sm:w-1/2">
+            <div class="mb-5">
+              <label for="lName" class="mb-3 block text-base font-medium text-[#07074D]">
+                Last Name
+              </label>
+              <input type="text" name="lName" id="lName" placeholder="Last Name"
+                class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md" />
+            </div>
+          </div>
+        </div>
+        <div class="mb-5">
+          <label for="guest" class="mb-3 block text-base font-medium text-[#07074D]">
+            How many guest are you bringing?
+          </label>
+          <input type="number" name="guest" id="guest" placeholder="5" min="0"
+            class="w-full appearance-none rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md" />
+        </div>
+
+        <div class="-mx-3 flex flex-wrap">
+          <div class="w-full px-3 sm:w-1/2">
+            <div class="mb-5">
+              <label for="date" class="mb-3 block text-base font-medium text-[#07074D]">
+                Date
+              </label>
+              <input type="date" name="date" id="date"
+                class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md" />
+            </div>
+          </div>
+          <div class="w-full px-3 sm:w-1/2">
+            <div class="mb-5">
+              <label for="time" class="mb-3 block text-base font-medium text-[#07074D]">
+                Time
+              </label>
+              <input type="time" name="time" id="time"
+                class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md" />
+            </div>
+          </div>
+        </div>
+
+        <div class="mb-5">
+          <label class="mb-3 block text-base font-medium text-[#07074D]">
+            Are you coming to the event?
+          </label>
+          <div class="flex items-center space-x-6">
+            <div class="flex items-center">
+              <input type="radio" name="radio1" id="radioButton1" class="h-5 w-5" />
+              <label for="radioButton1" class="pl-3 text-base font-medium text-[#07074D]">
+                Yes
+              </label>
+            </div>
+            <div class="flex items-center">
+              <input type="radio" name="radio1" id="radioButton2" class="h-5 w-5" />
+              <label for="radioButton2" class="pl-3 text-base font-medium text-[#07074D]">
+                No
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <button
+            class="hover:shadow-form rounded-md bg-[#6A64F1] py-3 px-8 text-center text-base font-semibold text-white outline-none">
+            Submit
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- //ANCHOR - Social Media Buttons -->
+  <div id="redes">
+    <div class=" grid place-items-center mx-auto p-20 sm:my-auto bg-white rounded-3xl space-y-10">
+      <h1 class="text-5xl font-semibold text-blue-500">Redes Sociales</h1>
+      <div class="flex items-center justify-center space-x-3">
+        <a href="https://www.facebook.com/adr.guev" target="_blank">
+          <button class="bg-blue-500 px-4 py-2 font-semibold text-white inline-flex items-center space-x-2 rounded">
+            <svg class="w-5 h-5 fill-current" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path
+                d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+            </svg>
+            <span>Facebook</span>
+          </button>
+        </a>
+        <a href="https://twitter.com/imadriGOAT" target="_blank">
+          <button class="bg-blue-300 px-4 py-2 font-semibold text-white inline-flex items-center space-x-2 rounded">
+            <svg class="w-5 h-5 fill-current" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path
+                d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z" />
+            </svg>
+            <span>Twitter</span>
+          </button>
+        </a>
+
+        <a href="https://www.instagram.com/adr.jsx/" target="_blank">
+          <button class="bg-pink-600 px-4 py-2 font-semibold text-white inline-flex items-center space-x-2 rounded">
+            <span>Instagram</span>
+          </button>
+        </a>
+
+      </div>
+    </div>
+  </div>
+
+  <script src="./carro.js"></script>
 </body>
 
 </html>
