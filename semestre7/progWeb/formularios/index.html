@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario en Pantalla Completa</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body background="./img/pattern-bg.jpg">
+    <div class="form-container">
+
+        <div style="display: flex;flex-direction: row;align-items: center;">
+            <img src="./img/logo1.png" alt="Logo" style="width: 15%;height: auto;">
+            <h2>Formulario Estudiantes</h2>
+            <img src="./img/logo2.png" alt="Logo" style="width: 6%;height: auto;">
+        </div>
+        
+        
+        <div class="column">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="apellido">Apellido Paterno</label>
+            <input type="text" id="apellido" name="apellido" required>
+
+            <label for="apellido">Apellido Materno</label>
+            <input type="text" id="apellido" name="apellido" required>
+
+            <label for="password">Número de control</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="zona">Carrera</label>
+            <input type="text" id="zona" name="zona" list="zonas">
+            <datalist id="zonas">
+                <option value="II">
+                <option value="ISC">
+                <option value="IGE">
+                <option value="IM">
+                <option value="IC">
+                <option value="IE">
+                <option value="CP">
+            </datalist>
+
+            <label for="email">Correo Electrónico</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="telefono">Teléfono</label>
+            <input type="tel" id="telefono" name="telefono" pattern="[0-9]{10}" required>
+
+            <label for="fecha">Fecha de Nacimiento</label>
+            <input type="date" id="fecha" name="fecha" required>
+
+            <label for="genero">Género</label>
+            <select id="genero" name="genero" required>
+                <option value="">Selecciona...</option>
+                <option value="masculino">Masculino</option>
+                <option value="femenino">Femenino</option>
+                <option value="otro">Otro</option>
+            </select>
+
+            <label for="archivo">Foto</label>
+            <input type="file" id="archivo" name="archivo" required>
+        </div>
+
+        <div class="column">
+            <label>Intereses</label>
+
+            <div style="display: flex;">
+                <label for="deporte">Deporte</label>
+                <input type="checkbox" id="deporte" name="intereses" value="deporte">
+                <label for="musica">Música</label>
+                <input type="checkbox" id="musica" name="intereses" value="musica">
+                <label for="musica">Videojuegos</label>
+                <input type="checkbox" id="videojuegos" name="intereses" value="videojuegos">
+                <label for="musica">Dibujo  </label>
+                <input type="checkbox" id="dibujo" name="intereses" value="dibujo">
+            </div>
+
+            <label for="lugar">Lugar de Nacimiento</label>
+            <input type="text" id="lugar" name="lugar" required>    
+            
+
+            <label for="satisfaccion">Nivel de ánimo</label>
+            <input type="range" id="satisfaccion" name="satisfaccion" min="0" max="10" value="5" oninput="document.getElementById('range-value').textContent = this.value">
+            <div class="range-output">Valor: <span id="range-value">5</span></div>
+
+            <label>Grado de estudio</label>
+            <div style="display: flex;">
+                <label for="licenciatura">Licenciatura</label>
+                <input type="radio" id="licenciatura" name="nivel" value="licenciatura">
+                <label for="maestria">Maestría</label>
+                <input type="radio" id="maestria" name="nivel" value="maestria">
+                <label for="doctorado">Doctorado</label>
+                <input type="radio" id="doctorado" name="nivel" value="doctorado">
+            </div>
+
+            <label for="asignatura">Asignatura Favorita</label>
+            <input type="text" id="asignatura" name="asignatura" required>
+           
+            <label for="color">Color favorito</label>
+            <input type="color" id="color" name="color" value="#0000ff">
+
+            <label for="numero">Número de intergantes en familia</label>
+            <input type="number" id="numero" name="numero" min="1" max="100">
+
+            <label for="hora">Hora de contacto</label>
+            <input type="time" id="hora" name="hora">
+
+            <label for="mes">Mes de ingreso</label>
+            <input type="month" id="mes" name="mes">
+
+            <label for="comentarios">Datos adicionales</label>
+            <textarea id="comentarios" name="comentarios" rows="2"></textarea>
+
+            <button type="submit">Enviar</button>
+        </div>
+    </div>
+</body>
+</html>
