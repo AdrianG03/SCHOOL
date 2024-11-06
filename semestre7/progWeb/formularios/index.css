@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
 }
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -11,6 +12,7 @@ body {
     align-items: center;
     height: 100vh;
 }
+
 .form-container {
     background-image: url(./img/pattern.jpeg);
     padding: 20px;
@@ -19,26 +21,53 @@ body {
     width: 90vw;
     max-width: 1200px;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     gap: 20px;
 }
-h2 {
+
+.header {
     width: 100%;
     text-align: center;
     margin-bottom: 20px;
-    color: #333;
-    font-size: 24px;
 }
-.column {
-    width: 48%;
+
+.form-sections {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.form-section {
+    width: 32%;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
+
+h2 {
+    width: 100%;
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
 label {
     font-size: 14px;
     font-weight: bold;
 }
+
 input, select, textarea {
     width: 100%;
     padding: 10px;
@@ -46,24 +75,28 @@ input, select, textarea {
     border-radius: 5px;
     font-size: 14px;
 }
+
 textarea {
     resize: none;
 }
+
 .range-output {
     font-size: 14px;
     text-align: right;
     margin-top: -5px;
 }
+
 button {
-    width: 100%;
-    padding: 15px;
+    padding: 10px;
     background-color: #28a745;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
+    transition: background-color 0.3s ease;
 }
+
 button:hover {
     background-color: #218838;
 }
