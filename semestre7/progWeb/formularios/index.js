@@ -1,6 +1,11 @@
 document.addEventListener("DOMContentLoaded", function() {
     const form = document.getElementById("formulario");
 
+    // Inicializar Quill
+    const quill = new Quill('#editor', {
+        theme: 'snow'
+    });
+
     form.addEventListener("submit", function(event) {
         let formularioValido = true;
         let mensajeError = "Por favor, completa los siguientes campos:\n";
@@ -65,7 +70,21 @@ document.addEventListener("DOMContentLoaded", function() {
         validarCampo(document.getElementById("satisfaccion"), "Nivel de ánimo");
         validarCampo(document.getElementById("color"), "Color favorito");
         validarCampo(document.getElementById("numero"), "Número de integrantes en familia");
-        validarCampo(document.getElementById("comentarios"), "Datos adicionales");
+
+        // Validar contenido de Quill para "Datos adicionales"
+        const comentarios = quill.root.innerHTML.trim();
+        if (comentarios === "<p><br></p>") { // Verifica si el contenido está vacío
+            formularioValido = false;
+            mensajeError += "- Datos adicionales\n";
+            if (!primerCampoInvalido) primerCampoInvalido = document.getElementById("editor");
+        }
+
+        // Almacena el contenido de Quill en un campo oculto para enviar
+        const hiddenInput = document.createElement("input");
+        hiddenInput.setAttribute("type", "hidden");
+        hiddenInput.setAttribute("name", "comentarios");
+        hiddenInput.setAttribute("value", comentarios);
+        form.appendChild(hiddenInput);
 
         // Mostrar mensaje de error y hacer focus si el formulario no es válido
         if (!formularioValido) {

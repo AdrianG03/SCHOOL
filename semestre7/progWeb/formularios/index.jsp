@@ -1,4 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" %>
+<%@ page contentType="text/html; charset=UTF-8" %>
+<%@ page language="java" %>
 <!DOCTYPE html> 
 <html lang="es">
 <head>
@@ -6,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario en Pantalla Completa</title>
     <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
 </head>
 <body background="./img/pattern-bg.jpg">
     <div class="form-container">
@@ -119,8 +121,8 @@
                     <label for="numero">Número de integrantes en familia</label>
                     <input id="numero" name="numero">
 
-                    <label for="comentarios">Datos adicionales</label>
-                    <textarea id="comentarios" name="comentarios" rows="2"></textarea>
+                    <label for="editor">Datos adicionales</label>
+                    <div id="editor"></div>
                 </div>
             </div>
 
@@ -130,6 +132,7 @@
             </div>
         </form>
     </div>
+    <script src="https://cdn.quilljs.com/1.3.6/quill.min.js"></script>
     <script src="index.js"></script>
 
 </body>
