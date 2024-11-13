@@ -24,22 +24,22 @@
                 <div class="form-section">
                     <h3>Información Personal</h3>
                     <label for="nombre">Nombre</label>
-                    <input id="nombre" name="nombre">
+                    <input id="nombre" name="nombre" required>
 
                     <label for="apellido">Apellido Paterno</label>
-                    <input id="apellido" name="apellido">
+                    <input id="apellido" name="apellido" required>
 
                     <label for="apellido-materno">Apellido Materno</label>
-                    <input id="apellido-materno" name="apellido_materno">
+                    <input id="apellido-materno" name="apellido_materno" required>
 
                     <label for="password">Número de control</label>
-                    <input id="password" name="password">
+                    <input id="password" name="password" type="text" pattern="\d{8}" title="Debe ser un número de 8 dígitos" required>
 
                     <label for="fecha">Fecha de Nacimiento</label>
-                    <input id="fecha" name="fecha">
+                    <input id="fecha" name="fecha" type="date" required>
 
                     <label for="genero">Género</label>
-                    <select id="genero" name="genero">
+                    <select id="genero" name="genero" required>
                         <option value="">Selecciona...</option>
                         <option value="masculino">Masculino</option>
                         <option value="femenino">Femenino</option>
@@ -49,7 +49,7 @@
                     <!-- Campo: Estado Civil -->
                     <label>Estado Civil</label>
                     <div style="display: flex; gap: 10px;">
-                        <input type="radio" id="soltero" name="estado_civil" value="soltero">
+                        <input type="radio" id="soltero" name="estado_civil" value="soltero" required>
                         <label for="soltero">Soltero</label>
 
                         <input type="radio" id="casado" name="estado_civil" value="casado">
@@ -64,13 +64,13 @@
                 <div class="form-section">
                     <h3>Información de Contacto y Carrera</h3>
                     <label for="email">Correo Electrónico</label>
-                    <input id="email" name="email">
+                    <input id="email" name="email" type="email" required>
 
                     <label for="telefono">Teléfono</label>
-                    <input id="telefono" name="telefono">
+                    <input id="telefono" name="telefono" type="tel" pattern="\d{10}" title="Debe ser un número de 10 dígitos" required>
 
                     <label for="zona">Carrera</label>
-                    <input id="zona" name="zona" list="zonas">
+                    <input id="zona" name="zona" list="zonas" required>
                     <datalist id="zonas">
                         <option value="II">
                         <option value="ISC">
@@ -82,16 +82,16 @@
                     </datalist>
 
                     <label for="archivo">Foto</label>
-                    <input id="archivo" name="archivo">
+                    <input id="archivo" name="archivo" type="file" required>
 
                     <label for="lugar">Lugar de Nacimiento</label>
-                    <input id="lugar" name="lugar">
+                    <input id="lugar" name="lugar" required>
 
                     <label for="hora">Hora de contacto</label>
-                    <input id="hora" name="hora">
+                    <input id="hora" name="hora" type="time" required>
 
                     <label for="mes">Mes de ingreso</label>
-                    <input id="mes" name="mes">
+                    <input id="mes" name="mes" type="month" required>
                 </div>
 
                 <!-- Sección 3: Preferencias e Intereses -->
@@ -110,16 +110,16 @@
                     </div>
 
                     <label for="asignatura">Asignatura Favorita</label>
-                    <input id="asignatura" name="asignatura">
+                    <input id="asignatura" name="asignatura" required>
 
                     <label for="satisfaccion">Nivel de ánimo</label>
-                    <input id="satisfaccion" name="satisfaccion">
+                    <input id="satisfaccion" name="satisfaccion" type="range" min="0" max="10" required>
 
                     <label for="color">Color favorito</label>
-                    <input id="color" name="color">
+                    <input id="color" name="color" type="color" required>
 
                     <label for="numero">Número de integrantes en familia</label>
-                    <input id="numero" name="numero">
+                    <input id="numero" name="numero" type="number" min="1" max="100" required>
 
                     <label for="editor">Datos adicionales</label>
                     <div id="editor"></div>
@@ -133,7 +133,5 @@
         </form>
     </div>
     <script src="https://cdn.quilljs.com/1.3.6/quill.min.js"></script>
-    <script src="index.js"></script>
-
 </body>
 </html>
